@@ -1,0 +1,15 @@
+{
+  "state": "necessary_endpoint_gain_safety_not_certified",
+  "expanded": false,
+  "necessary_endpoint_pass": "4/9 vs2/9",
+  "per_controller": {
+    "V1": "2/3",
+    "V2": "2/3",
+    "C7": "0/3"
+  },
+  "c7_actual100mm": "3/3 vs2/3",
+  "causal_limitation": "Implementation changed both XY anchor and incremental feasible reference. Large actual XY movement15mm (peak17\u201318mm) demonstrates compliant path displacement, not pure anchor correction. Requires future separation of mechanisms.",
+  "safety_issue": "Mixed FK Cartesian rates exceed original Goal limits; measured passive motion contribution not isolated. Full native/opening history also unsafe. Add explicit Cartesian IK constraints before expansion.",
+  "next_action": "/home/ubuntu/tianshui/runs/upstream_endpoint_twist_bounds_20261106",
+  "fullcycle_certified": false
+}

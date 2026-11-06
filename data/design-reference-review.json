@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-11-06",
+  "files": [
+    {
+      "path": "方案核对/前期会议纪要.docx",
+      "sha256": "55bd4f7293003c855c80de49af2218915ac9ff9ef46718a48e9052235579549b",
+      "bytes": 7193
+    },
+    {
+      "path": "方案核对/2610-面向工厂固定夹精准插拔任务的智能化算法方案设计.docx",
+      "sha256": "0c8db325026564324f1584283081ae89b69e0f24556441891aff3b0c1bf8edb5",
+      "bytes": 3621423
+    },
+    {
+      "path": "方案核对/人工固定夹装配-YJ.docx",
+      "sha256": "c6a78c75c3b838b13e58ff43094b58e32978bdf5bfcad8fff68d2a0ef4eec154",
+      "bytes": 859508
+    }
+  ],
+  "identification": "YJ document identified by filename. The other algorithm proposal is identified by its exact title, not an inferred author.",
+  "read_method": "Full paragraph/table/math text from DOCX XML plus existing rendered pages; embedded spreadsheet previews are incomplete and not treated as full tables.",
+  "adopted": [
+    "cabinet/tool relative registration and near-field vision quality gates",
+    "force absolute values, trends and data-quality checks",
+    "bounded residual after deterministic baseline",
+    "real measurements -> simulation expansion -> controlled real correction"
+  ],
+  "expanded_in_report": [
+    "explicit coordinate/wrench transform and delay semantics",
+    "per-feature input dimensions, action units and residual labels",
+    "admittance discretization, antiwindup and nonlinear execution checks",
+    "release geometry, detachment and independent stability",
+    "time-indexed pseudocode and grouped reproduction checklist",
+    "measurement-driven simulator validation and hardware stage gates",
+    "separate development and independent validation; full failures retained"
+  ],
+  "not_claimed": [
+    "new design outperforms either reference empirically",
+    "six physical types already simulated: current local evidence is three sizes",
+    "Orin inference latency has been measured",
+    "unverified LIFT/ResiP conference descriptions or project dates are established facts"
+  ]
+}

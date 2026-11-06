@@ -1,0 +1,15 @@
+{
+  "completed": [],
+  "goal_achieved": false,
+  "state": "pilot_closed_replan",
+  "pid": 473318,
+  "phase": "physics_measurement_and_controller_review",
+  "updated_at": "2026-11-04T14:37:40.487506+00:00",
+  "interface_smoke_successes": 2,
+  "error": "CalledProcessError(1, ['/home/ubuntu/tianshui/.venv/bin/python', '-m', 'local_setup.deployable.run_training_v3', '--out', '/home/ubuntu/tianshui/runs/balanced_20261104/learning_sac_s2701', '--profile', '/home/ubuntu/tianshui/runs/balanced_20261104/training_control_profile.json', '--seed', '2701', '--temporal-weight', '0.0', '--min-rounds', '6', '--max-rounds', '12'])",
+  "halted": [
+    "sac"
+  ],
+  "reason": "Actual processes and user services exited; ordinary SAC halted_invalid_physics, adjacent pilot closed at6. Old parent running flag stale. Diagnostic16 episodes completed and reviewed. No automatic restart.",
+  "runtime_evidence": "/home/ubuntu/tianshui/runs/autonomous_revision_20261104/medium_governor_bounded_v1/final_runtime_check.json"
+}

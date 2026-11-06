@@ -1,0 +1,5594 @@
+{
+  "version": "balanced_scorecard_v1",
+  "source_split": "development",
+  "milestone": "development",
+  "groups": {
+    "base": {
+      "n": 36,
+      "successes": 20,
+      "success_rate": 0.5555555555555556,
+      "success_wilson95": [
+        0.395810617556973,
+        0.7045873125991978
+      ],
+      "deadline_s": 45,
+      "qualified": 9,
+      "qualified_rate": 0.25,
+      "qualified_wilson95": [
+        0.13750477662994837,
+        0.4107045376672835
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 3,
+          "rate": 0.25,
+          "wilson95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 2,
+          "rate": 0.16666666666666666,
+          "wilson95": [
+            0.04696514218385378,
+            0.4480308622529734
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 4,
+          "rate": 0.3333333333333333,
+          "wilson95": [
+            0.13812009109121315,
+            0.6093779111272004
+          ]
+        }
+      },
+      "success_duration_median_s": 41.191668814979494,
+      "success_duration_p95_s": 42.76416889699177,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 19,
+        "60": 20,
+        "90": 20,
+        "130": 20
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 9,
+        "60": 9,
+        "90": 9,
+        "130": 9
+      },
+      "failure_charged_seconds": 3881.3500193674117,
+      "qualified_per_hour_proxy": 8.347610969979101,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:release_peak_torque_Nm": 18,
+        "quality:contact_peak_force_N": 15,
+        "quality:contact_peak_torque_Nm": 15,
+        "quality:release_peak_force_N": 12,
+        "quality:insertion_force_impulse_Ns": 10,
+        "assembly_failed:independent_stability_not_confirmed": 11,
+        "quality:release_upward_rebound_mm": 4,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 4,
+        "assembly_failed:cartesian_tracking_limit": 4,
+        "missing:release_peak_force_N": 3,
+        "missing:release_peak_torque_Nm": 3,
+        "missing:release_upward_rebound_mm": 3,
+        "assembly_failed:maximum_steps": 1
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 20,
+          "median": 7.652185178153995,
+          "p95": 38.41252230865883
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 20,
+          "median": 1.467625695022941,
+          "p95": 7.949903389618229
+        },
+        "release_peak_force_N": {
+          "successful_n": 20,
+          "median": 16.57999864424617,
+          "p95": 52.873958178984346
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 20,
+          "median": 2.4418325160384606,
+          "p95": 5.968387998497592
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 20,
+          "median": 25.721561408989416,
+          "p95": 280.3820170622575
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 20,
+          "median": 13.753261148493813,
+          "p95": 21.89784747454025
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 20,
+          "median": 0.029794911000160178,
+          "p95": 0.06271510482108555
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 20,
+          "median": 0.0,
+          "p95": 0.6476074457168591
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 20,
+          "median": 0.0,
+          "p95": 0.0
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r00": {
+      "n": 36,
+      "successes": 11,
+      "success_rate": 0.3055555555555556,
+      "success_wilson95": [
+        0.1800445159482992,
+        0.4685627285051034
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 40.98333547078073,
+      "success_duration_p95_s": 41.666668839752674,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 11,
+        "60": 11,
+        "90": 11,
+        "130": 11
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "quality:contact_peak_force_N": 14,
+        "quality:contact_peak_torque_Nm": 20,
+        "quality:release_peak_force_N": 15,
+        "quality:release_peak_torque_Nm": 15,
+        "quality:insertion_force_impulse_Ns": 8,
+        "assembly_failed:cartesian_tracking_limit": 5,
+        "missing:release_peak_force_N": 5,
+        "missing:release_peak_torque_Nm": 5,
+        "missing:release_upward_rebound_mm": 5,
+        "assembly_failed:independent_stability_not_confirmed": 18,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 6,
+        "assembly_failed:raw_force_limit": 2,
+        "quality:release_upward_rebound_mm": 1
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 11,
+          "median": 11.826259565063703,
+          "p95": 34.73311465869183
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 11,
+          "median": 2.4313314276265054,
+          "p95": 4.139277483785792
+        },
+        "release_peak_force_N": {
+          "successful_n": 11,
+          "median": 17.9986076935322,
+          "p95": 34.4321544895201
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 11,
+          "median": 1.7482496474095048,
+          "p95": 5.473162472731023
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 11,
+          "median": 40.81113748022584,
+          "p95": 256.2168124706237
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 11,
+          "median": 12.738990261911717,
+          "p95": 17.817599136556293
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 11,
+          "median": 0.031390629383199496,
+          "p95": 0.04974419387982995
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 11,
+          "median": 0.0,
+          "p95": 0.03382563591003418
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 11,
+          "median": 0.0010538673387121098,
+          "p95": 0.0012343406439091647
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r01": {
+      "n": 36,
+      "successes": 21,
+      "success_rate": 0.5833333333333334,
+      "success_wilson95": [
+        0.4220025157487166,
+        0.7285943794855394
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 40.83333546295762,
+      "success_duration_p95_s": 42.58333555422723,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 21,
+        "60": 21,
+        "90": 21,
+        "130": 21
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:release_peak_force_N": 8,
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "quality:contact_peak_force_N": 13,
+        "quality:contact_peak_torque_Nm": 12,
+        "quality:insertion_force_impulse_Ns": 10,
+        "assembly_failed:cartesian_tracking_limit": 6,
+        "missing:release_peak_force_N": 7,
+        "missing:release_peak_torque_Nm": 7,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 11,
+        "missing:release_upward_rebound_mm": 7,
+        "assembly_failed:independent_stability_not_confirmed": 8,
+        "quality:release_peak_torque_Nm": 11,
+        "quality:release_upward_rebound_mm": 2,
+        "assembly_failed:ik_infeasible": 1
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 21,
+          "median": 11.539636981738449,
+          "p95": 37.16241745108748
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 21,
+          "median": 2.5269101997914722,
+          "p95": 4.995709725115635
+        },
+        "release_peak_force_N": {
+          "successful_n": 21,
+          "median": 14.841720530789814,
+          "p95": 39.526953756503794
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 21,
+          "median": 2.2523038963460422,
+          "p95": 6.315518503847074
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 21,
+          "median": 36.773630282358866,
+          "p95": 281.3403197535971
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 21,
+          "median": 17.655046195406364,
+          "p95": 30.375575585723126
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 21,
+          "median": 0.031547646516078394,
+          "p95": 0.06594799910929211
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 21,
+          "median": 0.0,
+          "p95": 0.5864500999450684
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 21,
+          "median": 0.004060591905808295,
+          "p95": 0.005961468850834564
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r02": {
+      "n": 36,
+      "successes": 14,
+      "success_rate": 0.3888888888888889,
+      "success_wilson95": [
+        0.24784873065371,
+        0.5513554090339485
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 40.97500213701278,
+      "success_duration_p95_s": 42.36000220924616,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 14,
+        "60": 14,
+        "90": 14,
+        "130": 14
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:contact_peak_torque_Nm": 15,
+        "quality:insertion_force_impulse_Ns": 12,
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "assembly_failed:cartesian_tracking_limit": 1,
+        "quality:contact_peak_force_N": 12,
+        "quality:release_peak_force_N": 9,
+        "quality:release_peak_torque_Nm": 16,
+        "assembly_failed:independent_stability_not_confirmed": 19,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 10,
+        "quality:release_upward_rebound_mm": 4,
+        "assembly_failed:ik_infeasible": 2,
+        "quality:insertion_lateral_path_mm": 2
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 14,
+          "median": 10.482987556023073,
+          "p95": 21.38532464013023
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 14,
+          "median": 2.3422786488114786,
+          "p95": 6.177273882905286
+        },
+        "release_peak_force_N": {
+          "successful_n": 14,
+          "median": 11.351056046825736,
+          "p95": 28.297831149831968
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 14,
+          "median": 1.3225130636029854,
+          "p95": 6.020081509989412
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 14,
+          "median": 34.84851963811714,
+          "p95": 112.91824399643527
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 14,
+          "median": 17.98582687424247,
+          "p95": 27.083032520454427
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 14,
+          "median": 0.03080984967396711,
+          "p95": 0.05068333717125809
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 14,
+          "median": 0.0,
+          "p95": 1.4347791671752925
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 14,
+          "median": 0.0053325135726815355,
+          "p95": 0.006677742924521243
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r03": {
+      "n": 36,
+      "successes": 15,
+      "success_rate": 0.4166666666666667,
+      "success_wilson95": [
+        0.2714056205144606,
+        0.5779974842512834
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 40.766668792814016,
+      "success_duration_p95_s": 42.09833552893251,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 15,
+        "60": 15,
+        "90": 15,
+        "130": 15
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "assembly_failed:independent_stability_not_confirmed": 19,
+        "quality:contact_peak_force_N": 7,
+        "quality:release_peak_torque_Nm": 12,
+        "quality:contact_peak_torque_Nm": 11,
+        "quality:insertion_force_impulse_Ns": 3,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 6,
+        "quality:release_peak_force_N": 5,
+        "assembly_failed:cartesian_tracking_limit": 2,
+        "missing:release_peak_force_N": 1,
+        "missing:release_peak_torque_Nm": 1,
+        "quality:insertion_lateral_path_mm": 1,
+        "missing:release_upward_rebound_mm": 1,
+        "quality:release_upward_rebound_mm": 1
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 15,
+          "median": 9.32854357525593,
+          "p95": 27.178424501287736
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 15,
+          "median": 1.7310761763370286,
+          "p95": 3.539483236747799
+        },
+        "release_peak_force_N": {
+          "successful_n": 15,
+          "median": 9.111130323244954,
+          "p95": 19.222555867365816
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 15,
+          "median": 0.9602939402692403,
+          "p95": 2.021777168316551
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 15,
+          "median": 31.468072072015726,
+          "p95": 62.735932958614534
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 15,
+          "median": 19.28355140874477,
+          "p95": 23.78290814044585
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 15,
+          "median": 0.03410839761166459,
+          "p95": 0.05330798598930492
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 15,
+          "median": 0.0,
+          "p95": 0.030988454818725475
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 15,
+          "median": 0.007258990866542942,
+          "p95": 0.015423204966935554
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r04": {
+      "n": 36,
+      "successes": 21,
+      "success_rate": 0.5833333333333334,
+      "success_wilson95": [
+        0.4220025157487166,
+        0.7285943794855394
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 41.25000215135515,
+      "success_duration_p95_s": 43.26666892319918,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 21,
+        "60": 21,
+        "90": 21,
+        "130": 21
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:release_peak_force_N": 9,
+        "quality:release_peak_torque_Nm": 13,
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "quality:contact_peak_force_N": 5,
+        "quality:contact_peak_torque_Nm": 11,
+        "quality:insertion_force_impulse_Ns": 4,
+        "assembly_failed:independent_stability_not_confirmed": 13,
+        "quality:release_upward_rebound_mm": 3,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 5,
+        "assembly_failed:ik_infeasible": 1,
+        "missing:release_peak_force_N": 2,
+        "missing:release_peak_torque_Nm": 2,
+        "missing:release_upward_rebound_mm": 2,
+        "assembly_failed:cartesian_tracking_limit": 1,
+        "quality:insertion_lateral_path_mm": 1
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 21,
+          "median": 7.206929578225539,
+          "p95": 19.564673232809827
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 21,
+          "median": 1.4455022601414014,
+          "p95": 3.8238097986999766
+        },
+        "release_peak_force_N": {
+          "successful_n": 21,
+          "median": 10.023274917565573,
+          "p95": 25.698672985599575
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 21,
+          "median": 1.640805448681273,
+          "p95": 5.017628755605324
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 21,
+          "median": 34.436637621901156,
+          "p95": 67.13669030224821
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 21,
+          "median": 15.876485251158728,
+          "p95": 20.334855486369197
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 21,
+          "median": 0.02907518135872036,
+          "p95": 0.03497619610450807
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 21,
+          "median": 0.0,
+          "p95": 1.0991096496582031
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 21,
+          "median": 0.011109780435148993,
+          "p95": 0.059698168952514584
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r05": {
+      "n": 36,
+      "successes": 24,
+      "success_rate": 0.6666666666666666,
+      "success_wilson95": [
+        0.5033399787115652,
+        0.7978538117569468
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 41.09166880976409,
+      "success_duration_p95_s": 41.62583550428972,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 24,
+        "60": 24,
+        "90": 24,
+        "130": 24
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:contact_peak_force_N": 10,
+        "quality:contact_peak_torque_Nm": 14,
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "quality:release_peak_force_N": 4,
+        "quality:release_peak_torque_Nm": 10,
+        "quality:insertion_force_impulse_Ns": 4,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 12,
+        "assembly_failed:independent_stability_not_confirmed": 11,
+        "assembly_failed:cartesian_tracking_limit": 1,
+        "missing:release_peak_force_N": 1,
+        "missing:release_peak_torque_Nm": 1,
+        "missing:release_upward_rebound_mm": 1,
+        "quality:release_upward_rebound_mm": 1
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 24,
+          "median": 8.024569164939859,
+          "p95": 28.604928566189102
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 24,
+          "median": 2.3673987793875204,
+          "p95": 6.16200118167162
+        },
+        "release_peak_force_N": {
+          "successful_n": 24,
+          "median": 9.085214871174276,
+          "p95": 28.335397713114965
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 24,
+          "median": 1.4952686236870383,
+          "p95": 3.834048322073386
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 24,
+          "median": 41.17981843163875,
+          "p95": 64.16308651017395
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 24,
+          "median": 17.705152885658467,
+          "p95": 25.295588931580426
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 24,
+          "median": 0.0367316668502851,
+          "p95": 0.05379493770405044
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 24,
+          "median": 0.0,
+          "p95": 0.36369562149047774
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 24,
+          "median": 0.02426952220178727,
+          "p95": 0.07289323271795901
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    },
+    "sac_r06": {
+      "n": 36,
+      "successes": 19,
+      "success_rate": 0.5277777777777778,
+      "success_wilson95": [
+        0.37005938022987594,
+        0.6801395848482095
+      ],
+      "deadline_s": 45,
+      "qualified": 0,
+      "qualified_rate": 0.0,
+      "qualified_wilson95": [
+        0.0,
+        0.09641862859446367
+      ],
+      "per_task": {
+        "lab1": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab2": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "lab3": {
+          "n": 12,
+          "qualified": 0,
+          "rate": 0.0,
+          "wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        }
+      },
+      "success_duration_median_s": 41.16666881367564,
+      "success_duration_p95_s": 42.39666887782514,
+      "success_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 19,
+        "60": 19,
+        "90": 19,
+        "130": 19
+      },
+      "qualified_by_deadline": {
+        "15": 0,
+        "30": 0,
+        "45": 0,
+        "60": 0,
+        "90": 0,
+        "130": 0
+      },
+      "failure_charged_seconds": 4680,
+      "qualified_per_hour_proxy": 0.0,
+      "proxy_note": "Conservative comparison proxy, not measured production throughput; reset/recovery time unavailable.",
+      "reasons": {
+        "quality:contact_peak_torque_Nm": 20,
+        "quality:release_peak_torque_Nm": 13,
+        "quality:active_policy_slew_rms_m_s2": 36,
+        "assembly_failed:independent_stability_not_confirmed": 15,
+        "quality:contact_peak_force_N": 12,
+        "quality:release_peak_force_N": 7,
+        "quality:insertion_force_impulse_Ns": 7,
+        "quality:measured_filtered_ee_acceleration_rms_m_s2": 14,
+        "quality:release_upward_rebound_mm": 3,
+        "assembly_failed:cartesian_tracking_limit": 2,
+        "missing:release_peak_force_N": 2,
+        "missing:release_peak_torque_Nm": 2,
+        "quality:insertion_lateral_path_mm": 2,
+        "missing:release_upward_rebound_mm": 2
+      },
+      "quality_successful": {
+        "contact_peak_force_N": {
+          "successful_n": 19,
+          "median": 7.636285235573903,
+          "p95": 25.97562351449153
+        },
+        "contact_peak_torque_Nm": {
+          "successful_n": 19,
+          "median": 3.070863178584239,
+          "p95": 4.572881558484238
+        },
+        "release_peak_force_N": {
+          "successful_n": 19,
+          "median": 11.032393485895014,
+          "p95": 31.093483811506662
+        },
+        "release_peak_torque_Nm": {
+          "successful_n": 19,
+          "median": 2.010221843291358,
+          "p95": 5.144307683663979
+        },
+        "insertion_force_impulse_Ns": {
+          "successful_n": 19,
+          "median": 44.34094701679617,
+          "p95": 73.3499376481268
+        },
+        "insertion_lateral_path_mm": {
+          "successful_n": 19,
+          "median": 23.67111335556639,
+          "p95": 28.885960782093065
+        },
+        "measured_filtered_ee_acceleration_rms_m_s2": {
+          "successful_n": 19,
+          "median": 0.03671493007228943,
+          "p95": 0.05246430681749722
+        },
+        "release_upward_rebound_mm": {
+          "successful_n": 19,
+          "median": 0.0,
+          "p95": 0.5289256572723383
+        },
+        "active_policy_slew_rms_m_s2": {
+          "successful_n": 19,
+          "median": 0.010837997438462107,
+          "p95": 0.016924040243168206
+        }
+      },
+      "checks": {
+        "qualified_rate": false,
+        "per_task_qualified_rate": false,
+        "sample_size": true,
+        "qualified_wilson_lower": true,
+        "training_seeds": false,
+        "independent": true,
+        "protocol_compatible": false,
+        "physical_safety_audit": false,
+        "paired_reference_gate": false,
+        "all_seeds_passed_separately": true
+      },
+      "promotion": "not_qualified"
+    }
+  },
+  "episodes": [
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "base",
+      "success": true,
+      "duration_s": 39.45000205747783,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.56666883453727,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.83333556726575,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "base",
+      "success": true,
+      "duration_s": 40.93333546817303,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "base",
+      "success": true,
+      "duration_s": 40.116668758913875,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "base",
+      "success": true,
+      "duration_s": 40.61666878499091,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "base",
+      "success": true,
+      "duration_s": 39.983335418626666,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "base",
+      "success": false,
+      "duration_s": 26.5000013820827,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "base",
+      "success": true,
+      "duration_s": 40.916668800637126,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.41666882671416,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "base",
+      "success": false,
+      "duration_s": 16.283334182575345,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.700002174824476,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.383335491642356,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "base",
+      "success": true,
+      "duration_s": 53.80000280588865,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.18333548121154,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "base",
+      "success": true,
+      "duration_s": 42.0166688580066,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.88333556987345,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "base",
+      "success": false,
+      "duration_s": 31.33333496749401,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "base",
+      "success": false,
+      "duration_s": 43.216668920591474,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "base",
+      "success": false,
+      "duration_s": 129.98334011249244,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:maximum_steps",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.200002148747444,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "base",
+      "success": true,
+      "duration_s": 40.38333543948829,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "base",
+      "success": true,
+      "duration_s": 42.18333553336561,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.933335572481155,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_upward_rebound_mm"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.000002190470695,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.83333556726575,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.16666881367564,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "base",
+      "success": false,
+      "duration_s": 43.45000226609409,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.18333553336561,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.816668847575784,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "base",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "base",
+      "success": true,
+      "duration_s": 40.08333542384207,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "base",
+      "success": false,
+      "duration_s": 42.85000223480165,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "base",
+      "success": false,
+      "duration_s": 41.63333550468087,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "base",
+      "success": true,
+      "duration_s": 41.61666883714497,
+      "quality_pass": true,
+      "reasons": []
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "base",
+      "success": false,
+      "duration_s": 26.5000013820827,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 39.71666873805225,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 41.11666881106794,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 21.116667767986655,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 40.93333546817303,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 40.21666876412928,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 21.233334440737963,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 41.88333551771939,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 40.85000213049352,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 40.98333547078073,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 41.30000215396285,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 10.300000537186861,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 41.63333550468087,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 23.300001215189695,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 41.983335522934794,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 28.133334800601006,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:raw_force_limit",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 46.23333574458957,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 41.700002174824476,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 41.96666885539889,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 20.11666771583259,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 40.600002117455006,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:raw_force_limit",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 40.916668800637126,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 42.85000223480165,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 41.93333552032709,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 40.86666879802942,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 42.18333553336561,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 42.90000223740935,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r00",
+      "success": true,
+      "duration_s": 41.48333549685776,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 43.45000226609409,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 42.21666886843741,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 43.48333560116589,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 43.416668931022286,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 41.983335522934794,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 42.88333556987345,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 41.75000217743218,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r00",
+      "success": false,
+      "duration_s": 42.56666888669133,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.133335426449776,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.13333547860384,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 15.43333413824439,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 41.200002148747444,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 39.78333540819585,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 14.083334067836404,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.13333547860384,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.80000212788582,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 15.000000782310963,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 21.550001123920083,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 9.20000047981739,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.71666879020631,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.233335483819246,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.70000212267041,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 43.03333557769656,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 34.60000180453062,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 42.58333555422723,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.750002125278115,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.76666884496808,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.83333546295762,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 42.600002221763134,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.63333550468087,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 43.100002247840166,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 26.283334704115987,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:ik_infeasible",
+        "quality:contact_peak_force_N",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 42.0500021930784,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.83333546295762,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.45000216178596,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 43.45000226609409,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 42.33333554118872,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.55000216700137,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 43.416668931022286,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.116668758913875,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 41.233335483819246,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 39.800002075731754,
+      "quality_pass": false,
+      "reasons": [
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r01",
+      "success": false,
+      "duration_s": 43.400002263486385,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r01",
+      "success": true,
+      "duration_s": 40.63333545252681,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 39.78333540819585,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 24.566667947918177,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.18333558551967,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.866668954491615,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 40.20000209659338,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.216668920591474,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 42.23333553597331,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 41.43333549425006,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 42.83333556726575,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 41.40000215917826,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 41.15000214613974,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 42.85000223480165,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 31.266668297350407,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:ik_infeasible",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 40.100002091377974,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 43.6166689414531,
+      "quality_pass": false,
+      "reasons": [
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 63.21666996367276,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:insertion_lateral_path_mm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 41.45000216178596,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 41.08333547599614,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 30.06666823476553,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:ik_infeasible",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 58.88333640433848,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_lateral_path_mm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 41.683335507288575,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 41.40000215917826,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 40.86666879802942,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.30000225827098,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 40.600002117455006,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 42.86666890233755,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.01666891016066,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.48333560116589,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 40.433335442095995,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.48333560116589,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r02",
+      "success": true,
+      "duration_s": 40.00000208616257,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 42.88333556987345,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 41.833335515111685,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 43.30000225827098,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r02",
+      "success": false,
+      "duration_s": 42.80000223219395,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.16666876152158,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.15000225044787,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.83333546295762,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 39.86666874587536,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 39.70000207051635,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.91666895709932,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.98333557508886,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.783335564658046,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 42.48333554901183,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.15000225044787,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 41.11666881106794,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 41.03333547338843,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 44.466668985784054,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.16666876152158,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.40000210702419,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 52.9500027615577,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:insertion_lateral_path_mm",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 33.78333509527147,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 41.03333547338843,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.66666889190674,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 44.06666896492243,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 41.93333552032709,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.86666890233755,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.766668792814016,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 41.58333550207317,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.16666876152158,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.90000223740935,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.01666891016066,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.41666887886822,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.400002263486385,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r03",
+      "success": true,
+      "duration_s": 40.25000209920108,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.88333556987345,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 41.86666885018349,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 43.28333559073508,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r03",
+      "success": false,
+      "duration_s": 42.70000222697854,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.01666875369847,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.25000215135515,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.4666687771678,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.31666876934469,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 39.633335400372744,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.20000225305557,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 42.000002190470695,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.900002133101225,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.30000215396285,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.233335588127375,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.233335483819246,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.96666880324483,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.80000218003988,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 22.633334513753653,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:ik_infeasible",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.6500022765249,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 73.81667051650584,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:insertion_lateral_path_mm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 42.600002221763134,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.23333543166518,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 42.38333554379642,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 43.26666892319918,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 43.6166689414531,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.15000225044787,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 42.66666889190674,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.233335588127375,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.133335426449776,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 42.86666890233755,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.45000216178596,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 42.18333553336561,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.666668839752674,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 43.45000226609409,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 40.93333546817303,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 42.90000223740935,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 41.60000216960907,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r04",
+      "success": true,
+      "duration_s": 41.55000216700137,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r04",
+      "success": false,
+      "duration_s": 42.466668881475925,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 39.56666873022914,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.58333550207317,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.18333548121154,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.66666878759861,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.23333543166518,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.26666881889105,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.71666879020631,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 41.43333549425006,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.08333547599614,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 42.000002190470695,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.11666881106794,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.78333546034992,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 43.81666895188391,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 87.88333791680634,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 42.23333553597331,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 58.033336360007524,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.733335457742214,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.533335499465466,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 42.88333556987345,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.63333545252681,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.33333548903465,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.55000216700137,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 42.000002190470695,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.10000214353204,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.35000210441649,
+      "quality_pass": false,
+      "reasons": [
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.18333548121154,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.050002140924335,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 43.46666893362999,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.300002101808786,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.63333550468087,
+      "quality_pass": false,
+      "reasons": [
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 43.46666893362999,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 40.83333546295762,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 42.90000223740935,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 41.76666884496808,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r05",
+      "success": true,
+      "duration_s": 41.56666883453727,
+      "quality_pass": false,
+      "reasons": [
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r05",
+      "success": false,
+      "duration_s": 42.65000222437084,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_000",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 39.61666873283684,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_001",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.81666895188391,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_002",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.16666881367564,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_003",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.01666880585253,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_004",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 40.25000209920108,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_005",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.383335491642356,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_006",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.80000218003988,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_007",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 41.383335491642356,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_008",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.13333547860384,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_009",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.366668824106455,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_010",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 40.98333547078073,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab1",
+      "case_id": "lab1_v3_dev_011",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 40.733335457742214,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_000",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 42.81666889972985,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_001",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 41.48333549685776,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_002",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.71666884236038,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_003",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 73.1333371475339,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:insertion_lateral_path_mm",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_004",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.18333558551967,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_005",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.816668847575784,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_006",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.716668946668506,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_007",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.233335483819246,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_008",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 42.35000220872462,
+      "quality_pass": false,
+      "reasons": [
+        "quality:release_peak_force_N",
+        "quality:release_peak_torque_Nm",
+        "quality:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_009",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 42.33333554118872,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_010",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 39.88333541341126,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_torque_Nm",
+        "quality:release_peak_force_N",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab2",
+      "case_id": "lab2_v3_dev_011",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.550002271309495,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:cartesian_tracking_limit",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "missing:release_peak_force_N",
+        "missing:release_peak_torque_Nm",
+        "quality:insertion_force_impulse_Ns",
+        "quality:insertion_lateral_path_mm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "missing:release_upward_rebound_mm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_000",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 40.5666687823832,
+      "quality_pass": false,
+      "reasons": [
+        "quality:contact_peak_force_N",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_001",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.233335483819246,
+      "quality_pass": false,
+      "reasons": [
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_002",
+      "method": "sac_r06",
+      "success": true,
+      "duration_s": 41.050002140924335,
+      "quality_pass": false,
+      "reasons": [
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_003",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.43333559855819,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_004",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 42.38333554379642,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_005",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.383335595950484,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_006",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.416668931022286,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_007",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 41.91666885279119,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_008",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 42.85000223480165,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_009",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 41.76666884496808,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_010",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 43.28333559073508,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:contact_peak_force_N",
+        "quality:contact_peak_torque_Nm",
+        "quality:measured_filtered_ee_acceleration_rms_m_s2",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    },
+    {
+      "task": "lab3",
+      "case_id": "lab3_v3_dev_011",
+      "method": "sac_r06",
+      "success": false,
+      "duration_s": 42.65000222437084,
+      "quality_pass": false,
+      "reasons": [
+        "assembly_failed:independent_stability_not_confirmed",
+        "quality:release_peak_torque_Nm",
+        "quality:active_policy_slew_rms_m_s2"
+      ]
+    }
+  ],
+  "quality_caps": {
+    "lab1": {
+      "contact_peak_force_N": {
+        "limit": 8.036001094342181,
+        "reference_p95": 7.036001094342181,
+        "n": 2,
+        "reference": "base"
+      },
+      "contact_peak_torque_Nm": {
+        "limit": 2.0672109907821627,
+        "reference_p95": 1.8792827188928753,
+        "n": 2,
+        "reference": "base"
+      },
+      "release_peak_force_N": {
+        "limit": 13.328957090961252,
+        "reference_p95": 12.117233719055683,
+        "n": 2,
+        "reference": "base"
+      },
+      "release_peak_torque_Nm": {
+        "limit": 1.6039227101647546,
+        "reference_p95": 1.4581115546952315,
+        "n": 2,
+        "reference": "base"
+      },
+      "insertion_force_impulse_Ns": {
+        "limit": 57.36975983325403,
+        "reference_p95": 52.15432712114003,
+        "n": 2,
+        "reference": "base"
+      },
+      "insertion_lateral_path_mm": {
+        "limit": 43.133133262604474,
+        "reference_p95": 39.21193932964043,
+        "n": 2,
+        "reference": "base"
+      },
+      "measured_filtered_ee_acceleration_rms_m_s2": {
+        "limit": 0.037925160337160924,
+        "reference_p95": 0.03447741848832811,
+        "n": 2,
+        "reference": "base"
+      },
+      "release_upward_rebound_mm": {
+        "limit": 0.5,
+        "reference_p95": 0.0,
+        "n": 2,
+        "reference": "base"
+      },
+      "active_policy_slew_rms_m_s2": {
+        "limit": 0.00021936355639990898,
+        "reference_p95": 0.00019942141490900817,
+        "n": 4,
+        "reference": "sac_fixed"
+      }
+    },
+    "lab2": {
+      "contact_peak_force_N": {
+        "limit": 29.12233506070729,
+        "reference_p95": 26.474850055188444,
+        "n": 2,
+        "reference": "base"
+      },
+      "contact_peak_torque_Nm": {
+        "limit": 2.781324102949639,
+        "reference_p95": 2.5284764572269447,
+        "n": 2,
+        "reference": "base"
+      },
+      "release_peak_force_N": {
+        "limit": 22.125629085679034,
+        "reference_p95": 20.114208259708214,
+        "n": 2,
+        "reference": "base"
+      },
+      "release_peak_torque_Nm": {
+        "limit": 1.7580981620006224,
+        "reference_p95": 1.5982710563642022,
+        "n": 2,
+        "reference": "base"
+      },
+      "insertion_force_impulse_Ns": {
+        "limit": 419.2159411710706,
+        "reference_p95": 381.1054010646096,
+        "n": 2,
+        "reference": "base"
+      },
+      "insertion_lateral_path_mm": {
+        "limit": 44.17644507648826,
+        "reference_p95": 40.160404614989325,
+        "n": 2,
+        "reference": "base"
+      },
+      "measured_filtered_ee_acceleration_rms_m_s2": {
+        "limit": 0.04755474116621949,
+        "reference_p95": 0.04323158287838135,
+        "n": 2,
+        "reference": "base"
+      },
+      "release_upward_rebound_mm": {
+        "limit": 0.5,
+        "reference_p95": 0.0,
+        "n": 2,
+        "reference": "base"
+      },
+      "active_policy_slew_rms_m_s2": {
+        "limit": 0.0002613353334595476,
+        "reference_p95": 0.00023757757587231597,
+        "n": 2,
+        "reference": "sac_fixed"
+      }
+    },
+    "lab3": {
+      "contact_peak_force_N": {
+        "limit": 13.234495585855424,
+        "reference_p95": 12.03135962350493,
+        "n": 4,
+        "reference": "base"
+      },
+      "contact_peak_torque_Nm": {
+        "limit": 5.1955449039135875,
+        "reference_p95": 4.723222639921443,
+        "n": 4,
+        "reference": "base"
+      },
+      "release_peak_force_N": {
+        "limit": 20.099901757773317,
+        "reference_p95": 18.272637961612105,
+        "n": 4,
+        "reference": "base"
+      },
+      "release_peak_torque_Nm": {
+        "limit": 5.108795298112732,
+        "reference_p95": 4.644359361920665,
+        "n": 4,
+        "reference": "base"
+      },
+      "insertion_force_impulse_Ns": {
+        "limit": 362.4967058573323,
+        "reference_p95": 329.5424598703021,
+        "n": 4,
+        "reference": "base"
+      },
+      "insertion_lateral_path_mm": {
+        "limit": 49.854923400706326,
+        "reference_p95": 45.322657637005754,
+        "n": 4,
+        "reference": "base"
+      },
+      "measured_filtered_ee_acceleration_rms_m_s2": {
+        "limit": 0.03997964315662501,
+        "reference_p95": 0.03634513014238637,
+        "n": 4,
+        "reference": "base"
+      },
+      "release_upward_rebound_mm": {
+        "limit": 0.5408858060836792,
+        "reference_p95": 0.040885806083679185,
+        "n": 4,
+        "reference": "base"
+      },
+      "active_policy_slew_rms_m_s2": {
+        "limit": 0.0001531288738069724,
+        "reference_p95": 0.00013920806709724764,
+        "n": 4,
+        "reference": "sac_fixed"
+      }
+    }
+  },
+  "protocol": {
+    "version": "balanced_v3_proposed_20261104",
+    "status": "engineering_targets_not_measured_capability",
+    "tasks": [
+      "lab1",
+      "lab2",
+      "lab3"
+    ],
+    "deadlines_s": [
+      15,
+      30,
+      45,
+      60,
+      90,
+      130
+    ],
+    "milestones": {
+      "development": {
+        "deadline_s": 45,
+        "qualified_rate": 0.85,
+        "per_task_qualified_rate": 0.8,
+        "min_cases_per_task": 12,
+        "min_training_seeds": 1,
+        "require_independent": false,
+        "wilson_lower": 0.0
+      },
+      "qualification": {
+        "deadline_s": 30,
+        "qualified_rate": 0.95,
+        "per_task_qualified_rate": 0.9,
+        "min_cases_per_task": 100,
+        "min_training_seeds": 3,
+        "require_independent": true,
+        "wilson_lower": 0.9
+      }
+    },
+    "failure_charge_s": 130,
+    "quality_calibration_split": "development",
+    "quality_metrics": {
+      "contact_peak_force_N": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 1.0
+      },
+      "contact_peak_torque_Nm": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 0.05
+      },
+      "release_peak_force_N": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 1.0
+      },
+      "release_peak_torque_Nm": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 0.05
+      },
+      "insertion_force_impulse_Ns": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 1.0
+      },
+      "insertion_lateral_path_mm": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 0.5
+      },
+      "measured_filtered_ee_acceleration_rms_m_s2": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 0.001
+      },
+      "release_upward_rebound_mm": {
+        "reference": "base",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 0.5
+      },
+      "active_policy_slew_rms_m_s2": {
+        "reference": "sac_fixed",
+        "relative_tolerance": 0.1,
+        "absolute_tolerance": 1e-05
+      }
+    },
+    "notes": [
+      "Quality caps are development-reference p95 plus max(10 percent, declared absolute tolerance), per task; they are engineering comparison caps, not validated real-robot safety limits.",
+      "Deadline starts at control handoff and ends after withdrawal to the same declared clearance and independent stable acceptance. It excludes simulator startup and includes in-episode retry time.",
+      "Failures and missing quality observations never count as qualified success. A safely triggered protective stop is a failed attempt, not automatically a physical safety violation.",
+      "Final evidence requires three training seeds evaluated separately on the same frozen 100 cases per task; do not pool repeated cases across seeds as independent trials.",
+      "Current and historical holdouts already inspected are retrospective development evidence for v3, never fresh v3 qualification data.",
+      "0.10 tolerances and 45/30-second targets are declared next-iteration targets, not observed improvements. Absolute caps and sensor processing must be frozen before qualification."
+    ]
+  },
+  "paired_qualified_vs_base": {
+    "sac_r00": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    },
+    "sac_r01": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    },
+    "sac_r02": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    },
+    "sac_r03": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    },
+    "sac_r04": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    },
+    "sac_r05": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    },
+    "sac_r06": {
+      "reference": "base",
+      "matched": 36,
+      "unmatched_reference": 0,
+      "unmatched_candidate": 0,
+      "qualified_wins": [],
+      "qualified_losses": [
+        [
+          "lab1",
+          "lab1_v3_dev_003"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_008"
+        ],
+        [
+          "lab1",
+          "lab1_v3_dev_009"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_004"
+        ],
+        [
+          "lab2",
+          "lab2_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_002"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_005"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_007"
+        ],
+        [
+          "lab3",
+          "lab3_v3_dev_010"
+        ]
+      ],
+      "exact_p": 0.00390625
+    }
+  },
+  "interpretation": "Retrospective diagnosis unless explicit qualification evidence is supplied. Never changes original success verdicts."
+}

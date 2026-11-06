@@ -1,0 +1,25 @@
+{
+  "concept": "夹指、固定夹、向内力箭头与外侧反馈弧",
+  "assets": [
+    {
+      "path": "assets/brand/logo.png",
+      "sha256": "cb0f84be9c6c99006c660d15428463e1b48662fd9aa897b516b46a95cab65fb6"
+    },
+    {
+      "path": "assets/brand/logo-mono.svg",
+      "sha256": "f4e7814baab61fa0d5206b7a296521798754e2da9747e1db9de1977a0322a2fb"
+    },
+    {
+      "path": "assets/brand/cover-mobile.svg",
+      "sha256": "b27e5e645307d1ea0b2b15ca58df57dd096dcc7c8d21432539d9ebb1dbfc0409"
+    },
+    {
+      "path": "assets/brand/cover.svg",
+      "sha256": "ff068b90ecdaf2cb3bf408a4e89a75dcadb0d80124a1f18a480691933822c3ae"
+    },
+    {
+      "path": "assets/brand/logo.svg",
+      "sha256": "29e6977c219e0cb2771985a770c5fb1b0333f9fda70310b13a04f96faeb1d5e6"
+    }
+  ]
+}

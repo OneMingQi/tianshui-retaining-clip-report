@@ -1,0 +1,287 @@
+{
+  "episodes": [
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab1",
+      "n": 808,
+      "final_actual_xyz_delta_mm": [
+        15.7250314950943,
+        -0.01261094439541921,
+        104.93189841508865
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 0.26007633683076126,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.08697742277834486,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 3.5766347664604403,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.005911036579469009,
+        0.0015733529565903348,
+        0.015349297166795672
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.3642684504194804,
+        0.09267630886791167,
+        0.27376800013487745
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 18.225520548335968,
+      "planner_angular_speed_peak_rad_s": 0.02499978490404934,
+      "planner_angular_acceleration_peak_rad_s2": 0.24575845599117166,
+      "planner_position_residual_peak_mm": 0.23048561757684238,
+      "opening_end_xy_anchor": [
+        0.5606432259082794,
+        0.16455727083666716
+      ],
+      "max_actual_xy_anchor_error_mm": 18.239209531470788
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab2",
+      "n": 689,
+      "final_actual_xyz_delta_mm": [
+        -1.7011165618896484,
+        -0.7348239305429161,
+        104.95289415121078
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 31.282287095791837,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.18647753102125186,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 1.6257716190509086,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.01788571085367785,
+        0.007414909646272783,
+        0.029782563395028827
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.8642911666268738,
+        0.4678624490386474,
+        0.8507912845758359
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 14.06929274781681,
+      "planner_angular_speed_peak_rad_s": 0.02118769764052152,
+      "planner_angular_acceleration_peak_rad_s2": 0.24841149554273262,
+      "planner_position_residual_peak_mm": 0.2109018486490178,
+      "opening_end_xy_anchor": [
+        0.6751887798309326,
+        0.17079762909270357
+      ],
+      "max_actual_xy_anchor_error_mm": 11.570127913429873
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab3",
+      "n": 604,
+      "final_actual_xyz_delta_mm": [
+        0.003814697265625,
+        -0.025504035875201225,
+        105.01399636268616
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 5.12392342614354,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.14253151922714924,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 1.1203252653787743,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.0005976085063474912,
+        0.000334613684349061,
+        0.016080081775102784
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.051697394424143894,
+        0.018478500615548565,
+        0.3505463412541321
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 0.4661685227120623,
+      "planner_angular_speed_peak_rad_s": 0.004433488758945712,
+      "planner_angular_acceleration_peak_rad_s2": 0.13774353552755242,
+      "planner_position_residual_peak_mm": 0.0009414700635351757,
+      "opening_end_xy_anchor": [
+        0.8293399810791016,
+        0.1940247113161604
+      ],
+      "max_actual_xy_anchor_error_mm": 0.13918593962462514
+    },
+    {
+      "method": "v1__bounded8",
+      "case": "case_00_lab1",
+      "n": 794,
+      "final_actual_xyz_delta_mm": [
+        14.662399888038635,
+        -0.007292081136256456,
+        104.93487864732742
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 6.114230775528373,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.08845314228254075,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 3.5178494539698235,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.006004833731867443,
+        0.0014988427895423762,
+        0.015273980545968957
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.35700980265302995,
+        0.08796039988758775,
+        0.2773089533639084
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 17.153283766576106,
+      "planner_angular_speed_peak_rad_s": 0.024999794065813593,
+      "planner_angular_acceleration_peak_rad_s2": 0.24485649532044504,
+      "planner_position_residual_peak_mm": 0.2294991390238735,
+      "opening_end_xy_anchor": [
+        0.5632201135158539,
+        0.16590727436414454
+      ],
+      "max_actual_xy_anchor_error_mm": 17.162984769332446
+    },
+    {
+      "method": "v1__bounded8",
+      "case": "case_00_lab2",
+      "n": 5,
+      "final_actual_xyz_delta_mm": [
+        8.454084396362305,
+        1.8486990738892928,
+        5.21252304315567
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 113.29246682076884,
+      "withdrawal_arm_command_speed_peak_rad_s": null,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": null,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": null,
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": null,
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 8.653856437832541
+    },
+    {
+      "method": "v1__bounded8",
+      "case": "case_00_lab3",
+      "n": 604,
+      "final_actual_xyz_delta_mm": [
+        -0.002384185791015625,
+        1.5075784176588058e-05,
+        105.01532256603241
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 0.8696800100815416,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.12743174041545124,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 1.221483099377707,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.0007374054762676607,
+        0.00013887824842462315,
+        0.01604997671703634
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.06549224004075427,
+        0.014668096118020113,
+        0.3890582258522901
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 0.11161942252615764,
+      "planner_angular_speed_peak_rad_s": 0.0035971446553718475,
+      "planner_angular_acceleration_peak_rad_s2": 0.25463070777988084,
+      "planner_position_residual_peak_mm": 0.0006815861770004557,
+      "opening_end_xy_anchor": [
+        0.8267450332641602,
+        0.18849700342252618
+      ],
+      "max_actual_xy_anchor_error_mm": 0.1101780018919194
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab1",
+      "n": 794,
+      "final_actual_xyz_delta_mm": [
+        14.662399888038635,
+        -0.007292081136256456,
+        104.93487864732742
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 6.114230775528373,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.08845314228254075,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 3.5178494539698235,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.006004833731867443,
+        0.0014988427895423762,
+        0.015273980545968957
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.35700980265302995,
+        0.08796039988758775,
+        0.2773089533639084
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 17.153283766576106,
+      "planner_angular_speed_peak_rad_s": 0.024999794065813593,
+      "planner_angular_acceleration_peak_rad_s2": 0.24485649532044504,
+      "planner_position_residual_peak_mm": 0.2294991390238735,
+      "opening_end_xy_anchor": [
+        0.5632201135158539,
+        0.16590727436414454
+      ],
+      "max_actual_xy_anchor_error_mm": 17.162984769332446
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab2",
+      "n": 604,
+      "final_actual_xyz_delta_mm": [
+        -0.0054836273193359375,
+        0.016592166502960026,
+        104.99810427427292
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 2.2929139094891138,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.12880313581972835,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 1.1472344403134827,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.0006076800456433773,
+        7.60553396828012e-05,
+        0.015777843978466155
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.0482955030163712,
+        0.007938627081105487,
+        0.3674096911677971
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 0.1278469976870406,
+      "planner_angular_speed_peak_rad_s": 0.0029301015838955487,
+      "planner_angular_acceleration_peak_rad_s2": 0.21739918955558452,
+      "planner_position_residual_peak_mm": 0.0005919124359248336,
+      "opening_end_xy_anchor": [
+        0.6865766048431396,
+        0.1784015727462247
+      ],
+      "max_actual_xy_anchor_error_mm": 0.12565043670674156
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab3",
+      "n": 604,
+      "final_actual_xyz_delta_mm": [
+        0.004291534423828125,
+        0.006629772542510182,
+        105.01177608966827
+      ],
+      "opening_arm_command_acceleration_peak_rad_s2": 8.956823196065633,
+      "withdrawal_arm_command_speed_peak_rad_s": 0.1425978809618933,
+      "withdrawal_arm_command_acceleration_peak_rad_s2": 1.238929889531093,
+      "withdrawal_hybrid_fk_velocity_xyz_peak_m_s": [
+        0.0006291056051033195,
+        0.0013104133361718784,
+        0.016192182184284754
+      ],
+      "withdrawal_hybrid_fk_acceleration_xyz_peak_m_s2": [
+        0.05343488636806448,
+        0.11914192275612745,
+        0.3870443295237891
+      ],
+      "fk_differences_note": "Hybrid FK includes measured passive joints; finite differences describe actual command frame movement, not pure arm-planner acceleration.",
+      "max_actual_xy_displacement_from_origin_mm": 0.33628232080849746,
+      "planner_angular_speed_peak_rad_s": 0.0037465444716645647,
+      "planner_angular_acceleration_peak_rad_s2": 0.21599705335675753,
+      "planner_position_residual_peak_mm": 0.0007974826245267849,
+      "opening_end_xy_anchor": [
+        0.829045295715332,
+        0.19188741210382432
+      ],
+      "max_actual_xy_anchor_error_mm": 0.25288403654181774
+    }
+  ],
+  "fullcycle_certified": false,
+  "diagnostic_only": true
+}

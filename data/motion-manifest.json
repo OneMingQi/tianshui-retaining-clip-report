@@ -1,0 +1,213 @@
+{
+  "project": "天水项目固定夹装配仿真",
+  "build_kind": "archived media derivatives",
+  "new_physics_trials": 0,
+  "records": [
+    {
+      "output": "assets/media/motion/side-lab1.mp4",
+      "sha256": "144b5bf059d8e7dad92eeb992bf33d65e72c51ea2b66890b34153059709c1ce4",
+      "bytes": 237923,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab1/side_y.mp4",
+          "sha256": "c481093a09a44b66aefcd6aa09b3982a3a99e95b3a11d6489e18cde98f36eec9"
+        }
+      ],
+      "input_player_start_s": 7,
+      "duration_s": 9,
+      "operation": "crop=1080:1080:500:0,scale=640:640,setsar=1",
+      "additional_playback_multiplier": 1,
+      "lab": 1,
+      "inherited_source_playback_multiplier": 5,
+      "source_recording": "runs/side_inspection_20261105/three_models/lab1/recording.json",
+      "source_recording_sha256": "99ead0cd526166374cd75f3742fef3b2d77728187f59f1af4664bee3b34c9777",
+      "source_trial": "/home/ubuntu/tianshui/runs/force_only_20261103/optimization_v2/holdout_sac_temporal_lab1_b0/env_0",
+      "source_kind": "measured_state_replay_not_new_physics_trial",
+      "physics_advanced_during_recording": false
+    },
+    {
+      "output": "assets/media/motion/side-lab2.mp4",
+      "sha256": "515fdffd9112fff26b41b336713d6bff836a062b11a3a28fd9984605c6c6f048",
+      "bytes": 258375,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab2/side_y.mp4",
+          "sha256": "bc5be11909c5b22b9a2aa2ba8f77b01fdce7d80393407c50d05c7be0af266817"
+        }
+      ],
+      "input_player_start_s": 7,
+      "duration_s": 10,
+      "operation": "crop=1080:1080:500:0,scale=640:640,setsar=1",
+      "additional_playback_multiplier": 1,
+      "lab": 2,
+      "inherited_source_playback_multiplier": 5,
+      "source_recording": "runs/side_inspection_20261105/three_models/lab2/recording.json",
+      "source_recording_sha256": "29356d068196d4581efebdb18a5b6f6ffbaa4755aef629e762755ab230adb94e",
+      "source_trial": "/home/ubuntu/tianshui/runs/force_only_20261103/optimization_v2/holdout_sac_temporal_lab2_b0/env_0",
+      "source_kind": "measured_state_replay_not_new_physics_trial",
+      "physics_advanced_during_recording": false
+    },
+    {
+      "output": "assets/media/motion/side-lab3.mp4",
+      "sha256": "933323f054e49addf18e5f2c937e691500680372e173c18a05d4e56e7010304f",
+      "bytes": 267673,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab3/side_y.mp4",
+          "sha256": "b10d3a2436440b3189eaa7f28f9d750308a83110a2e711fa3ee73be9beb937bc"
+        }
+      ],
+      "input_player_start_s": 7,
+      "duration_s": 11,
+      "operation": "crop=1080:1080:500:0,scale=640:640,setsar=1",
+      "additional_playback_multiplier": 1,
+      "lab": 3,
+      "inherited_source_playback_multiplier": 5,
+      "source_recording": "runs/side_inspection_20261105/three_models/lab3/recording.json",
+      "source_recording_sha256": "a917dd43a5748307815ddcbff890440952e8c7422e64582aaa50f56567f540e4",
+      "source_trial": "/home/ubuntu/tianshui/runs/force_only_20261103/optimization_v2/holdout_sac_temporal_lab3_b0/env_0",
+      "source_kind": "measured_state_replay_not_new_physics_trial",
+      "physics_advanced_during_recording": false
+    },
+    {
+      "output": "assets/media/motion/overview-side.mp4",
+      "sha256": "f6a6bb2c3bf9416e627299c7243a6723d1db1412a6ef15e4cecf25ed02bc2ca1",
+      "bytes": 316131,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab2/robot_overview.mp4",
+          "sha256": "379113be83edd4820af0a60e366b795b3a08058ad2a57cb6ac1e97c3f4cd7e7e"
+        },
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab2/side_y.mp4",
+          "sha256": "bc5be11909c5b22b9a2aa2ba8f77b01fdce7d80393407c50d05c7be0af266817"
+        }
+      ],
+      "input_player_start_s": 0,
+      "duration_s": 18.3,
+      "operation": "Two panels with identical input player timestamps; no retiming",
+      "additional_playback_multiplier": 1,
+      "inherited_source_playback_multiplier": 5,
+      "panels": [
+        "Robot overview",
+        "Side view"
+      ],
+      "same_trial_same_clock": true,
+      "physics_advanced_during_recording": false
+    },
+    {
+      "output": "assets/media/motion/overview-side-mobile.mp4",
+      "sha256": "855b6fa4e94d3d1981390adc895a76aec609651e4d79030731f5ae83e9632027",
+      "bytes": 300638,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab2/robot_overview.mp4",
+          "sha256": "379113be83edd4820af0a60e366b795b3a08058ad2a57cb6ac1e97c3f4cd7e7e"
+        },
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab2/side_y.mp4",
+          "sha256": "bc5be11909c5b22b9a2aa2ba8f77b01fdce7d80393407c50d05c7be0af266817"
+        }
+      ],
+      "input_player_start_s": 0,
+      "duration_s": 18.3,
+      "operation": "Mobile vertical layout; same frames and clock as desktop pair",
+      "additional_playback_multiplier": 1,
+      "inherited_source_playback_multiplier": 5,
+      "panels": [
+        "Robot overview",
+        "Side view"
+      ],
+      "same_trial_same_clock": true,
+      "physics_advanced_during_recording": false
+    },
+    {
+      "output": "assets/media/motion/outcome-comparison.mp4",
+      "sha256": "eff92253c193db4817f17f9af3192e91cc559bfb2d83753804e58416fe823bf7",
+      "bytes": 271716,
+      "sources": [
+        {
+          "path": "reports/project_review_20261106/assets/media/v2-medium-success.mp4",
+          "sha256": "6b5fc5a407305f4b4c07bf51cee7f1dcb442f36665ca077a4ba8e26d7a94e815"
+        },
+        {
+          "path": "reports/project_review_20261106/assets/media/v2-medium-failure.mp4",
+          "sha256": "803748ae5ebb434cdcf893961a824755397dfa7dfe9848f63095d9cb2b734dc4"
+        }
+      ],
+      "input_player_start_s": 10,
+      "duration_s": 9.5,
+      "operation": "Two panels with identical input player timestamps; no retiming",
+      "additional_playback_multiplier": 1,
+      "panels": [
+        "Source success label / ep_00000",
+        "Source failure label / ep_00001"
+      ],
+      "same_trial_same_clock": false,
+      "source_clock_calibrated": false,
+      "note": "Aligned player timestamps only; different initial states, not a paired experiment"
+    },
+    {
+      "output": "assets/media/motion/outcome-comparison-mobile.mp4",
+      "sha256": "09d2ff88797fcf3157b265cdcfef3420b6eaa6561a174f745716e36b67abc013",
+      "bytes": 253544,
+      "sources": [
+        {
+          "path": "reports/project_review_20261106/assets/media/v2-medium-success.mp4",
+          "sha256": "6b5fc5a407305f4b4c07bf51cee7f1dcb442f36665ca077a4ba8e26d7a94e815"
+        },
+        {
+          "path": "reports/project_review_20261106/assets/media/v2-medium-failure.mp4",
+          "sha256": "803748ae5ebb434cdcf893961a824755397dfa7dfe9848f63095d9cb2b734dc4"
+        }
+      ],
+      "input_player_start_s": 10,
+      "duration_s": 9.5,
+      "operation": "Mobile vertical layout; same frames and clock as desktop pair",
+      "additional_playback_multiplier": 1,
+      "panels": [
+        "Source success label / ep_00000",
+        "Source failure label / ep_00001"
+      ],
+      "same_trial_same_clock": false,
+      "source_clock_calibrated": false,
+      "note": "Aligned player timestamps only; different initial states, not a paired experiment"
+    },
+    {
+      "output": "assets/media/motion/entry-small.gif",
+      "sha256": "aa455055312ca20c4802efe0522df95b8b5e2435425e37a1d1b56694aa8d4c6e",
+      "bytes": 541377,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab3/side_y.mp4",
+          "sha256": "b10d3a2436440b3189eaa7f28f9d750308a83110a2e711fa3ee73be9beb937bc"
+        }
+      ],
+      "input_player_start_s": 1,
+      "duration_s": 4,
+      "operation": "fps=10,crop=1280:900:400:100,scale=480:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=96[p];[b][p]paletteuse=dither=bayer:bayer_scale=4",
+      "additional_playback_multiplier": 1,
+      "inherited_source_playback_multiplier": 5,
+      "gif_fps": 10,
+      "note": "Frame subsampling, no smoothing or interpolated motion"
+    },
+    {
+      "output": "assets/media/motion/release-large.gif",
+      "sha256": "b1fa8aa011911c19bdac96c45e7beb713f07a116ebfa89fe5e96c972ee9b04df",
+      "bytes": 681047,
+      "sources": [
+        {
+          "path": "runs/side_inspection_20261105/three_models/lab1/side_y.mp4",
+          "sha256": "c481093a09a44b66aefcd6aa09b3982a3a99e95b3a11d6489e18cde98f36eec9"
+        }
+      ],
+      "input_player_start_s": 9.5,
+      "duration_s": 5,
+      "operation": "fps=10,crop=1280:900:400:100,scale=480:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=96[p];[b][p]paletteuse=dither=bayer:bayer_scale=4",
+      "additional_playback_multiplier": 1,
+      "inherited_source_playback_multiplier": 5,
+      "gif_fps": 10,
+      "note": "Frame subsampling, no smoothing or interpolated motion"
+    }
+  ]
+}

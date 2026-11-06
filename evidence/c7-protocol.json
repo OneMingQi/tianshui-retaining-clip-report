@@ -1,0 +1,50 @@
+{
+  "method": "c7_progress_timeout",
+  "base": "c2_projected",
+  "hypothesis": "At the old 600-frame timeout, continue only while measured wrist makes >=2mm downward progress within 180 frames. Hard cart phase cap1800 frames; unchanged total2700frames/45s. Use encoders, not object truth, for the new clock.",
+  "pilot_cases": [
+    0,
+    3,
+    4,
+    5
+  ],
+  "cases_remaining": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "frozen_at": "2026-11-06T02:55:48.452620+00:00",
+  "source_hashes": {
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/data_generator.py": "0d8d84f1e3653df5340cc61f41a48262a50d93def500ffc2a8d75cbae028a766",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/trajectories.py": "cc02e8207163315daa1171d38232a88214a4f73537136d76642c294154d17a87",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/probe_compliance.py": "75c37b42279586cebd99065717d6cbcda3c53172747b9f23712ec60c9b03b715",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/demo_env.py": "8b50e667d28550edc9bd12b54f3b1248291f14724bf2fa0e7bc66fe96e50d3b2",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/fit_xy_model.py": "0817d49e9dd237fcae76e61c068f2610a6a027939254fa820f657fac50c8d4b9",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/world.py": "faab9ceddf5956d2c6824d53be76d64c91b76fef6e3b96bec4ec2e73f1e3a47f",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/batch_ik.py": "94c43a16cea56b04fa4825ad068359609927e1f088e157b351f363beccb58c29",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/train_offline_rl.py": "9c5f8058cec03e1931c4bc441d896ee81e7990bf34aaf54ca311c816f257cb80",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/env.py": "351aefc1f952aa4bc1b069d40dd2f4265a82b6543393fb993c549cc8a467af55",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/build_dataset.py": "78823318483b96a7d6228539173e675b824f19479683c4e8195cc5d5651f8518",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/analyze_ft_policy.py": "7a3d5839679a60bd1a026e18d13356ac062d9246d319d59f66d4ef8a4b503056",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/verify_dataset.py": "a2a3466771f3fa1b58d9deada5d4582b991552f62c0bddbcad99e78e282585cc",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/controllers.py": "56adf48ad562a7c6bcbceeeb8772d8f06e97c9a9fad786cf3e09b1cd6fc97eb8",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/eval_model.py": "98aad61a6c3530fa721f847a67436657a121bfd345d048d87d8765bf7851d8d9",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/status.py": "31d8ed802f451d5e1273a1910d4086c5120666603c3015e90cb11d5780ba3246",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/analyze_jitter.py": "86f31ae3a1ade0bd08ce429b8a6a9d3d0b1c5a81e5f4c0166563bcc52b2b9bf0",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/__init__.py": "f7722e77e8a931e578375c4df04491810df51fabf7f6338eb22e0f53d3bb6cde",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/ik_workers.py": "d312e64d8fb0c2b2c51e339ac2f348eaaef5a418ac086aab602b0a5f7622e4cf",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/configs/envs.json": "be27f60bedf709872ba92f9254bd67a9833ea60f24eea31690af24fd63c2b8b6",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/configs/robot_zte24.json": "908df4acd1aea2980c930167f61fb9f72d072d901066e97c70f2e9b3b66b2270",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/tests/bench_scale.py": "f4cd9806ababf926b97ece1e70aec46d140dd574b366d61b0c2c1a82772ea513",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/tests/test_batch_ik.py": "9772ecbd0b59d9fd0e56b6daf084d04724585166df3c0757df690a4a267420d7",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/tests/bench_parallel.py": "17279906d6124248bfae035885773e275683006024a447a93db4b23c502b8953",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/tests/compare_ik_fallback.py": "03fc7591d4c353f0b74a38f955606fdcdb13b3b3853babb8f1596667c1a3569b",
+    "packages/c7_progress_timeout/code/tianshui_insert_pack/tests/test_controller_guards.py": "86dabd8bc3ead9da6e2daa472b6f8d24acb4a887f8ca50b36b7a8cfa4fde1774"
+  },
+  "metrics": "Unchanged native/demo comparison and independent physical-motion diagnostics; no fullcycle certification."
+}

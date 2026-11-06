@@ -1,0 +1,264 @@
+{
+    "_comment": "三种环境=三份抓取态 USD。位置量除特别说明外都在【机器人 base 系】(= Base_Link 原点，无旋转)。",
+    "usd_dir": "assets/grasped",
+    "urdf": "assets/robot/ZTE_robot_2.4_tianshui_double_vertical_grippers/urdf/ZTErobot_2.4.urdf",
+    "robot_config": "configs/robot_zte24.json",
+    "ee_quat_xyzw": [
+        0.0,
+        0.0,
+        -0.7071067811865476,
+        0.7071067811865476
+    ],
+    "retaining_clips": [
+        "SemiconductorRetainingClip_Large",
+        "SemiconductorRetainingClip_Medium",
+        "SemiconductorRetainingClip_Small"
+    ],
+    "targets_rel": {
+        "SemiconductorRetainingClip_Large": [
+            0.5576,
+            0.0027,
+            0.6627
+        ],
+        "SemiconductorRetainingClip_Medium": [
+            0.6841,
+            0.0125,
+            0.6632
+        ],
+        "SemiconductorRetainingClip_Small": [
+            0.8204,
+            0.0297,
+            0.6628
+        ]
+    },
+    "env_types": {
+        "lab1": {
+            "usd": "lab1_grasped_fg11.usd",
+            "policy": "replay",
+            "traj": "assets/traj/z24_lab1_traj_final.csv",
+            "active_retaining_clip": "SemiconductorRetainingClip_Large",
+            "ee_init_rel": [
+                0.5599,
+                0.1633,
+                1.01
+            ],
+            "grasp_rel": [
+                -0.0005,
+                -0.1592,
+                -0.1934
+            ],
+            "grasp_opening": -0.0006,
+            "release_open": 0.015,
+            "release_guide_limit": 0.003,
+            "release_guide_gain": 0.0,
+            "release_guide_alpha": 0.25,
+            "release_frames": 120,
+            "jam_force": 200.0,
+            "release_max_z_err": 0.003,
+            "track_tol": 0.06,
+            "search_after": 30,
+            "entry_force": 150.0,
+            "retry_lift": 0.006,
+            "entry_slow": 0.25,
+            "retry_max": 0,
+            "entry_force_ctrl": true,
+            "entry_kf": 4e-06,
+            "entry_z": 0.15,
+            "cart_step": 0.00075,
+            "cart_xy_free_boost": 1.0,
+            "shift_limit": 0.0,
+            "shift_every": 8,
+            "cart_xy_bias": [
+                0.0,
+                0.0
+            ],
+            "entry_offset_frames": 40,
+            "dither_gate": 0.001,
+            "dither_gate_scale": 0.25,
+            "entry_offset_lift": 0.003,
+            "cart_xy_free_force": 20.0,
+            "retry_frames": 20,
+            "entry_creep": 0.00025,
+            "entry_dither": 0.0012,
+            "readjust": false,
+            "readjust_max": 2,
+            "release_mode": "sequential_z",
+            "release_lift": 0.003,
+            "seat_z_tol": 0.0012,
+            "seat_hold": 8
+        },
+        "lab2": {
+            "usd": "lab2_grasped_fg11.usd",
+            "policy": "replay",
+            "release_height": 0.002,
+            "traj": "assets/traj/z24_lab2_traj_final.csv",
+            "active_retaining_clip": "SemiconductorRetainingClip_Medium",
+            "ee_init_rel": [
+                0.6897,
+                0.1707,
+                1.0136
+            ],
+            "grasp_rel": [
+                -0.0036,
+                -0.1589,
+                -0.1941
+            ],
+            "grasp_opening": 0.0076,
+            "readjust": true,
+            "readjust_max": 2,
+            "release_mode": "sequential_z",
+            "release_open": 0.0,
+            "release_guide_limit": 0.003,
+            "release_guide_gain": 0.0,
+            "release_guide_alpha": 0.25,
+            "release_frames": 160,
+            "jam_force": 200.0,
+            "release_max_z_err": 0.003,
+            "track_tol": 0.06,
+            "search_after": 30,
+            "cart_xy_bias": [
+                0.004,
+                0.0035
+            ],
+            "entry_force": 150.0,
+            "entry_slow": 0.25,
+            "entry_force_ctrl": true,
+            "entry_kf": 4e-06,
+            "entry_z": 0.15,
+            "cart_step": 0.00075,
+            "cart_xy_free_boost": 1.0,
+            "shift_limit": 0.0,
+            "shift_every": 8,
+            "entry_offset_frames": 40,
+            "retry_max": 0,
+            "retry_lift": 0.006,
+            "retry_frames": 20,
+            "dither_gate": 0.001,
+            "dither_gate_scale": 0.25,
+            "entry_offset_lift": 0.003,
+            "cart_xy_free_force": 20.0,
+            "entry_creep": 0.00025,
+            "entry_dither": 0.0012,
+            "explore_limit": 0.01,
+            "probe_step": [
+                6e-05,
+                0.00016
+            ],
+            "probe_hold": [
+                14,
+                34
+            ],
+            "probe_grow": 1.4,
+            "probe_step_max": 0.00035,
+            "probe_bias": [
+                -1.0,
+                0.0
+            ],
+            "probe_bias_prob": 0.6,
+            "probe_unload_force": 120.0,
+            "entry_xy_bias": [
+                0.0,
+                0.0
+            ],
+            "seat_z_tol": 0.0012,
+            "seat_hold": 8,
+            "search_mode": "grad",
+            "release_bias": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "release_force_gain": 0.0004,
+            "release_force_limit": 0.004,
+            "release_force_dir": [
+                -1.0,
+                0.0
+            ],
+            "release_force_thr": 12.0,
+            "release_lift": 0.003
+        },
+        "lab3": {
+            "usd": "lab3_grasped_fg11.usd",
+            "policy": "replay",
+            "release_height": 0.002,
+            "traj": "assets/traj/z24_lab3_traj_final.csv",
+            "active_retaining_clip": "SemiconductorRetainingClip_Small",
+            "ee_init_rel": [
+                0.8216,
+                0.1923,
+                1.015
+            ],
+            "grasp_rel": [
+                -0.0018,
+                -0.1605,
+                -0.1941
+            ],
+            "grasp_opening": 0.0198,
+            "readjust": false,
+            "readjust_max": 2,
+            "release_mode": "sequential_z",
+            "release_open": 0.0,
+            "release_guide_limit": 0.003,
+            "release_guide_gain": 0.0,
+            "release_guide_alpha": 0.25,
+            "release_frames": 320,
+            "jam_force": 200.0,
+            "release_max_z_err": 0.003,
+            "track_tol": 0.06,
+            "search_after": 30,
+            "entry_force": 150.0,
+            "retry_lift": 0.006,
+            "entry_slow": 0.25,
+            "retry_max": 0,
+            "entry_force_ctrl": true,
+            "entry_kf": 4e-06,
+            "entry_z": 0.15,
+            "cart_step": 0.00075,
+            "cart_xy_free_boost": 1.0,
+            "cart_xy_bias": [
+                0.002,
+                0.0
+            ],
+            "shift_limit": 0.0,
+            "shift_every": 8,
+            "entry_offset_frames": 40,
+            "dither_gate": 0.001,
+            "dither_gate_scale": 0.25,
+            "entry_offset_lift": 0.003,
+            "cart_xy_free_force": 20.0,
+            "retry_frames": 20,
+            "entry_creep": 0.00025,
+            "entry_dither": 0.0012,
+            "seat_z_tol": 0.0012,
+            "seat_hold": 8,
+            "release_bias": [
+                0.0075,
+                0.0035,
+                0.0
+            ],
+            "release_lift": 0.0,
+            "release_retract": 0.005
+        }
+    },
+    "world": {
+        "spacing": [
+            3.0,
+            3.0
+        ],
+        "grid_cols": 8,
+        "physics_dt": 0.016666666666666666,
+        "gravity": -9.81
+    },
+    "grasp": {
+        "_comment": "preload=下降阶段两指各内收量；hold=闭合上限；release_preload=落座后卸力保留的预紧（m）",
+        "preload": 0.006,
+        "hold": 0.0249,
+        "release_preload": 0.0005
+    },
+    "tolerances": {
+        "insert_pos": 0.002,
+        "insert_speed": 0.01,
+        "grasp_pos": 0.008,
+        "grasp_opening": 0.006
+    }
+}

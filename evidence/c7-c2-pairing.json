@@ -1,0 +1,12 @@
+{
+  "candidate": "c7_progress_timeout",
+  "reference": "c2_projected",
+  "n": 36,
+  "wins": [
+    "04_lab3",
+    "07_lab3",
+    "09_lab3"
+  ],
+  "losses": [],
+  "exact_mcnemar_p": 0.25
+}

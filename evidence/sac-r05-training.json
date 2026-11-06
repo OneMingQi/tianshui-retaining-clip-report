@@ -1,0 +1,22 @@
+{
+  "updates": 4350,
+  "total_gradient_steps": 24259,
+  "transitions": 121309,
+  "last": {
+    "step": 24259,
+    "q_loss": 0.08423736691474915,
+    "actor_loss": -1.4555230140686035,
+    "temporal": 0.0,
+    "alpha": 0.000335462624207139,
+    "q_mean": 1.4561492204666138,
+    "target_mean": 1.4091076850891113,
+    "target_abs_max": 10.009620666503906,
+    "q_gradient": 0.07363038510084152,
+    "actor_gradient": 0.002553763799369335,
+    "action_abs_mean": 0.6486530303955078,
+    "saturation_fraction": 0.166015625,
+    "wall_s": 13.66586638300214
+  },
+  "converged": false,
+  "note": "Convergence requires rollout learning curves, data coverage and independent seed results."
+}

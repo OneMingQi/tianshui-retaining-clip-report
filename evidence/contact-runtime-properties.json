@@ -1,0 +1,925 @@
+{
+  "exact_replay": true,
+  "episodes": [
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab1",
+      "runtime_properties": {
+        "retaining_clip": {
+          "max_shapes": 3,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871,
+                0.005450000986456871,
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_zjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_yjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        }
+      },
+      "properties_unchanged": true,
+      "collision_meshes": 6,
+      "contact_point_count": 116,
+      "direct_report_errors": [],
+      "contact_separation_m_range": [
+        -0.0005289126420393586,
+        0.01617143303155899
+      ],
+      "absence_of_reports_is_not_separation": true
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab2",
+      "runtime_properties": {
+        "retaining_clip": {
+          "max_shapes": 3,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871,
+                0.005450000986456871,
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_zjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_yjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        }
+      },
+      "properties_unchanged": true,
+      "collision_meshes": 6,
+      "contact_point_count": 122673,
+      "direct_report_errors": [],
+      "contact_separation_m_range": [
+        -0.0028842028696089983,
+        0.018688146024942398
+      ],
+      "absence_of_reports_is_not_separation": true
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab3",
+      "runtime_properties": {
+        "retaining_clip": {
+          "max_shapes": 3,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871,
+                0.005450000986456871,
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_zjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_yjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        }
+      },
+      "properties_unchanged": true,
+      "collision_meshes": 6,
+      "contact_point_count": 56897,
+      "direct_report_errors": [],
+      "contact_separation_m_range": [
+        -0.0026844176463782787,
+        0.016306104138493538
+      ],
+      "absence_of_reports_is_not_separation": true
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab1",
+      "runtime_properties": {
+        "retaining_clip": {
+          "max_shapes": 3,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871,
+                0.005450000986456871,
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_zjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_yjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        }
+      },
+      "properties_unchanged": true,
+      "collision_meshes": 6,
+      "contact_point_count": 33921,
+      "direct_report_errors": [],
+      "contact_separation_m_range": [
+        -0.0018658386543393135,
+        0.01618918776512146
+      ],
+      "absence_of_reports_is_not_separation": true
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab2",
+      "runtime_properties": {
+        "retaining_clip": {
+          "max_shapes": 3,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871,
+                0.005450000986456871,
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_zjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_yjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        }
+      },
+      "properties_unchanged": true,
+      "collision_meshes": 6,
+      "contact_point_count": 28553,
+      "direct_report_errors": [],
+      "contact_separation_m_range": [
+        -0.002742883050814271,
+        0.018708989024162292
+      ],
+      "absence_of_reports_is_not_separation": true
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab3",
+      "runtime_properties": {
+        "retaining_clip": {
+          "max_shapes": 3,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871,
+                0.005450000986456871,
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_zjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_yjb_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        },
+        "left_gripper_Link": {
+          "max_shapes": 1,
+          "contact_offsets_m": {
+            "values": [
+              [
+                0.005450000986456871
+              ]
+            ],
+            "finite": true
+          },
+          "rest_offsets_m": {
+            "values": [
+              [
+                0.0
+              ]
+            ],
+            "finite": true
+          },
+          "materials": {
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.0
+                ]
+              ]
+            ],
+            "finite": true
+          }
+        }
+      },
+      "properties_unchanged": true,
+      "collision_meshes": 6,
+      "contact_point_count": 56641,
+      "direct_report_errors": [],
+      "contact_separation_m_range": [
+        -0.002514160703867674,
+        0.01618148200213909
+      ],
+      "absence_of_reports_is_not_separation": true
+    }
+  ],
+  "fullcycle_certified": false,
+  "scope": "Runtime physical properties readback. Geometry remains authored, not cooked convex surfaces; shape-index association not assumed."
+}

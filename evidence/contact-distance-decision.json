@@ -1,0 +1,10 @@
+{
+  "state": "completed_not_a_repair",
+  "diagnostic_only": true,
+  "promoted": false,
+  "remaining_far_proxy_reports": 16,
+  "selected_proxy_reports": 28,
+  "maximum_surface_discrepancy_mm": 4.211525230949089,
+  "interpretation": "Report geometry discrepancy persists after halving generation offset. Different native histories and missing C7 medium extension prevent claiming a rate reduction. Not a validated physics correction; original physics retained.",
+  "next_action": "Return to original PCM/offsets. Test position-path progress governed by achievable differential IK with rate-bounded free wrist attitude; explicit kinematic screen and matched native-prefix audit."
+}

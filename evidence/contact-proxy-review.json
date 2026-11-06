@@ -1,0 +1,151 @@
+{
+  "observer_replay_exact": true,
+  "diagnostic_only": true,
+  "episodes": [
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab1",
+      "proxies": []
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab2",
+      "proxies": [
+        {
+          "proxy": "/World/env_1/SemiconductorRetainingClip_Medium/Cube",
+          "selected_points": 36,
+          "selected_frames": 19,
+          "points_farther_than_2mm": 36,
+          "frames_with_far_points": 19,
+          "max_conservative_surface_distance_mm": 7.898755528522353,
+          "median_conservative_surface_distance_mm": 7.8939165095208415,
+          "sum_reported_impulse_magnitudes_Ns": 2.954265938439967,
+          "far_point_impulse_magnitudes_Ns": 2.954265938439967,
+          "worst": {
+            "step": 1501,
+            "phase": "endpoint_open",
+            "reported_separation_mm": 0.0005661736395268235,
+            "impulse_magnitude_Ns": 0.04664359837899574
+          }
+        },
+        {
+          "proxy": "/World/env_1/SemiconductorRetainingClip_Medium/Cube_01",
+          "selected_points": 210,
+          "selected_frames": 152,
+          "points_farther_than_2mm": 135,
+          "frames_with_far_points": 113,
+          "max_conservative_surface_distance_mm": 10.871930916446345,
+          "median_conservative_surface_distance_mm": 2.9767321232736776,
+          "sum_reported_impulse_magnitudes_Ns": 12.164324908617285,
+          "far_point_impulse_magnitudes_Ns": 8.113313724210526,
+          "worst": {
+            "step": 1701,
+            "phase": "endpoint_withdraw",
+            "reported_separation_mm": 0.03588445906643756,
+            "impulse_magnitude_Ns": 0.005138206775132579
+          }
+        }
+      ]
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "case_00_lab3",
+      "proxies": [
+        {
+          "proxy": "/World/env_2/SemiconductorRetainingClip_Small/Cube_03",
+          "selected_points": 3,
+          "selected_frames": 3,
+          "points_farther_than_2mm": 3,
+          "frames_with_far_points": 3,
+          "max_conservative_surface_distance_mm": 6.224522689447931,
+          "median_conservative_surface_distance_mm": 4.11548822665422,
+          "sum_reported_impulse_magnitudes_Ns": 0.25709118594768177,
+          "far_point_impulse_magnitudes_Ns": 0.25709118594768177,
+          "worst": {
+            "step": 1496,
+            "phase": "endpoint_withdraw",
+            "reported_separation_mm": 3.888469635171532e-05,
+            "impulse_magnitude_Ns": 0.01912363076468443
+          }
+        }
+      ]
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab1",
+      "proxies": [
+        {
+          "proxy": "/World/env_0/SemiconductorRetainingClip_Large/Cube_03",
+          "selected_points": 24,
+          "selected_frames": 12,
+          "points_farther_than_2mm": 24,
+          "frames_with_far_points": 12,
+          "max_conservative_surface_distance_mm": 10.774871503339922,
+          "median_conservative_surface_distance_mm": 10.720870033464264,
+          "sum_reported_impulse_magnitudes_Ns": 0.45162348881396663,
+          "far_point_impulse_magnitudes_Ns": 0.45162348881396663,
+          "worst": {
+            "step": 792,
+            "phase": "endpoint_open",
+            "reported_separation_mm": -0.0005348691729523125,
+            "impulse_magnitude_Ns": 2.7971341960145496e-05
+          }
+        }
+      ]
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab2",
+      "proxies": [
+        {
+          "proxy": "/World/env_1/SemiconductorRetainingClip_Medium/Cube_01",
+          "selected_points": 1,
+          "selected_frames": 1,
+          "points_farther_than_2mm": 1,
+          "frames_with_far_points": 1,
+          "max_conservative_surface_distance_mm": 7.436765400658182,
+          "median_conservative_surface_distance_mm": 7.436765400658182,
+          "sum_reported_impulse_magnitudes_Ns": 0.031009072953578798,
+          "far_point_impulse_magnitudes_Ns": 0.031009072953578798,
+          "worst": {
+            "step": 1375,
+            "phase": "endpoint_withdraw",
+            "reported_separation_mm": 0.016843001503730193,
+            "impulse_magnitude_Ns": 0.031009072953578798
+          }
+        }
+      ]
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "case_00_lab3",
+      "proxies": [
+        {
+          "proxy": "/World/env_2/SemiconductorRetainingClip_Small/Cube_03",
+          "selected_points": 3,
+          "selected_frames": 3,
+          "points_farther_than_2mm": 0,
+          "frames_with_far_points": 0,
+          "max_conservative_surface_distance_mm": 1.9982647327809002,
+          "median_conservative_surface_distance_mm": 1.9852514448917562,
+          "sum_reported_impulse_magnitudes_Ns": 0.025657139965138992,
+          "far_point_impulse_magnitudes_Ns": 0,
+          "worst": {
+            "step": 938,
+            "phase": "endpoint_open",
+            "reported_separation_mm": -0.0003682942804061895,
+            "impulse_magnitude_Ns": 0.002195421265126654
+          }
+        }
+      ]
+    }
+  ],
+  "selection": {
+    "minimum_impulse_Ns": 1e-07,
+    "maximum_absolute_separation_m": 5e-05,
+    "geometry_discrepancy_threshold_m": 0.002,
+    "all_matching_reports_used": true
+  },
+  "geometry_measure": "Minimum distance over before/after poses and point, point +/- normal*separation; authored convex hull, not a force/clearance certificate.",
+  "performance_claim": false
+}

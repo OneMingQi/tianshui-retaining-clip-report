@@ -1,0 +1,1457 @@
+{
+  "snapshot": "2026-11-06",
+  "project": "天水项目",
+  "native_campaign": {
+    "updated_at": "2026-11-06T07:07:54.868488+00:00",
+    "assembly_attempts": 324,
+    "unique_development_cases": 36,
+    "independent_validation_cases": 0,
+    "infrastructure_failed_startups": 2,
+    "goal_complete": false,
+    "best_completed_native_quality_candidate": "c7_progress_timeout",
+    "candidate_globally_superior": false,
+    "experiments": {
+      "c10_no_release_xy_integral": {
+        "n": 12,
+        "native_success": 2,
+        "native_plus_jitter": 1,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 12,
+        "terminal_1s_translational_stability_diagnostic": 1,
+        "per_type": {
+          "lab1": {
+            "n": 4,
+            "native_success": 0
+          },
+          "lab2": {
+            "n": 4,
+            "native_success": 1
+          },
+          "lab3": {
+            "n": 4,
+            "native_success": 1
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 19.05,
+          "p95_all_attempts": 29.022499999999994
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 104.69152774084151,
+          "p95_all_attempts": 615.9638825680323
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1580142544307295,
+          "p95_all_attempts": 12.075275076050765
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 2.286246696649239,
+          "p95_all_attempts": 42.49307996259178
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 2.6664366872697483,
+          "p95_all_attempts": 75.88794756555997
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 518.7346371765082,
+          "p95_all_attempts": 1335.4631379525376
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 49.31584866022388,
+          "p95_all_attempts": 421.6385845766122
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.08565248474039923,
+          "p95_all_attempts": 1.010871691525614
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.3958946371497653,
+          "p95_all_attempts": 5.194947178128008
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.08512085452943967,
+          "p95_all_attempts": 0.35475095439181015
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.262689145932153,
+          "p95_all_attempts": 3.133370583010419
+        },
+        "force_max": {
+          "median_all_attempts": 101.96408789850207,
+          "p95_all_attempts": 582.4567732767466
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.4566136166149,
+          "p95_all_attempts": 310.3458403383762
+        }
+      },
+      "c11_proportional_release_xy": {
+        "n": 36,
+        "native_success": 18,
+        "native_plus_jitter": 18,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 36,
+        "terminal_1s_translational_stability_diagnostic": 7,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 9
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 5
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 4
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 19.066666666666666,
+          "p95_all_attempts": 25.3125
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 99.57395150321514,
+          "p95_all_attempts": 487.9189713795663
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1110616190899005,
+          "p95_all_attempts": 11.151984875078652
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 1.8020023280171653,
+          "p95_all_attempts": 33.064335890979436
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.9884537576868633,
+          "p95_all_attempts": 63.92260238436321
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 518.1351311507373,
+          "p95_all_attempts": 1343.6407640037394
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 52.07564547048359,
+          "p95_all_attempts": 552.3656256481192
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.08565248474039923,
+          "p95_all_attempts": 1.071004966569069
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.36782509678208847,
+          "p95_all_attempts": 7.795085966491653
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.0859485402195412,
+          "p95_all_attempts": 0.38553863096179486
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.2091281215561804,
+          "p95_all_attempts": 2.9162790655098934
+        },
+        "force_max": {
+          "median_all_attempts": 99.57395150321514,
+          "p95_all_attempts": 396.14989184299964
+        },
+        "force_med_max": {
+          "median_all_attempts": 68.68239933658909,
+          "p95_all_attempts": 211.8501088837592
+        }
+      },
+      "c1_bounded": {
+        "n": 12,
+        "native_success": 6,
+        "native_plus_jitter": 0,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 12,
+        "terminal_1s_translational_stability_diagnostic": 3,
+        "per_type": {
+          "lab1": {
+            "n": 4,
+            "native_success": 2
+          },
+          "lab2": {
+            "n": 4,
+            "native_success": 1
+          },
+          "lab3": {
+            "n": 4,
+            "native_success": 3
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 15.549999999999999,
+          "p95_all_attempts": 21.652499999999996
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 193.06906208314905,
+          "p95_all_attempts": 442.8924911398593
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 11.609105798314477,
+          "p95_all_attempts": 27.204627005549586
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 2.1754670387040704,
+          "p95_all_attempts": 13.5772549472171
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.361407329155362,
+          "p95_all_attempts": 11.493666515690713
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 397.1883306240255,
+          "p95_all_attempts": 745.6348186716207
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 66.2087869081115,
+          "p95_all_attempts": 245.00696596418442
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.26296201419978826,
+          "p95_all_attempts": 1.11416639857051
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.8343435446855192,
+          "p95_all_attempts": 5.597125207363663
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.48091635267304883,
+          "p95_all_attempts": 0.7062808308923112
+        },
+        "jitter_peak": {
+          "median_all_attempts": 4.222616803359292,
+          "p95_all_attempts": 6.405538478145031
+        },
+        "force_max": {
+          "median_all_attempts": 105.50924222850352,
+          "p95_all_attempts": 322.3368130391442
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.83115537358266,
+          "p95_all_attempts": 269.3005774082627
+        }
+      },
+      "c2_projected": {
+        "n": 36,
+        "native_success": 22,
+        "native_plus_jitter": 22,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 36,
+        "terminal_1s_translational_stability_diagnostic": 8,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 8
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 5
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 9
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 18.833333333333336,
+          "p95_all_attempts": 23.754166666666666
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 100.82183124029189,
+          "p95_all_attempts": 537.0128508503306
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1110616190899005,
+          "p95_all_attempts": 11.151984875078652
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 1.830541061320329,
+          "p95_all_attempts": 35.33754092155046
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.8736305333273098,
+          "p95_all_attempts": 96.00491178589908
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 518.1351311507373,
+          "p95_all_attempts": 952.3432227180241
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 52.07564547048359,
+          "p95_all_attempts": 523.4006105797412
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.08565248474039923,
+          "p95_all_attempts": 1.3609849525519127
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.36782509678208847,
+          "p95_all_attempts": 7.795085966491653
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.08826270156572819,
+          "p95_all_attempts": 0.4641156350134161
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.2091281215561804,
+          "p95_all_attempts": 2.9162790655098934
+        },
+        "force_max": {
+          "median_all_attempts": 99.57395150321514,
+          "p95_all_attempts": 396.14989184299964
+        },
+        "force_med_max": {
+          "median_all_attempts": 68.68239933658909,
+          "p95_all_attempts": 211.8501088837592
+        }
+      },
+      "c3_tracking_margin": {
+        "n": 12,
+        "native_success": 4,
+        "native_plus_jitter": 4,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 12,
+        "terminal_1s_translational_stability_diagnostic": 2,
+        "per_type": {
+          "lab1": {
+            "n": 4,
+            "native_success": 2
+          },
+          "lab2": {
+            "n": 4,
+            "native_success": 0
+          },
+          "lab3": {
+            "n": 4,
+            "native_success": 2
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 18.866666666666667,
+          "p95_all_attempts": 24.931666666666665
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 163.87100429247343,
+          "p95_all_attempts": 445.1497765376173
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1580142544307295,
+          "p95_all_attempts": 12.075275076050765
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 2.50856154023648,
+          "p95_all_attempts": 38.562742016031656
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 2.0982743909610906,
+          "p95_all_attempts": 113.75445907102034
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 519.7648322203402,
+          "p95_all_attempts": 1002.8812837317298
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 56.3130017372239,
+          "p95_all_attempts": 934.1969577192868
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.11363650504661266,
+          "p95_all_attempts": 2.5794699154874827
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.46915981006570945,
+          "p95_all_attempts": 12.53988480646715
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.11916352417219861,
+          "p95_all_attempts": 0.6961230572709952
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.3118307988258224,
+          "p95_all_attempts": 3.811885236948944
+        },
+        "force_max": {
+          "median_all_attempts": 103.882787234567,
+          "p95_all_attempts": 404.9650889087618
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.58678889190192,
+          "p95_all_attempts": 221.10505738575827
+        }
+      },
+      "c4_slew_only": {
+        "n": 12,
+        "native_success": 5,
+        "native_plus_jitter": 4,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 12,
+        "terminal_1s_translational_stability_diagnostic": 2,
+        "per_type": {
+          "lab1": {
+            "n": 4,
+            "native_success": 2
+          },
+          "lab2": {
+            "n": 4,
+            "native_success": 1
+          },
+          "lab3": {
+            "n": 4,
+            "native_success": 2
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 18.833333333333336,
+          "p95_all_attempts": 23.74
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 168.66240941811145,
+          "p95_all_attempts": 1008.4684623998734
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.175374968662107,
+          "p95_all_attempts": 32.240115647083655
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 2.6271634279372496,
+          "p95_all_attempts": 144.4744102412414
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 2.2975437988575127,
+          "p95_all_attempts": 132.10099815242174
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 518.9276367732053,
+          "p95_all_attempts": 928.6823204777813
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 56.3130017372239,
+          "p95_all_attempts": 838.7052810014025
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.10738932646979446,
+          "p95_all_attempts": 2.445383362880108
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.4836973452005582,
+          "p95_all_attempts": 14.151582593439537
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.11916352417219861,
+          "p95_all_attempts": 1.0118449040416964
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.3118307988258224,
+          "p95_all_attempts": 6.586051990645296
+        },
+        "force_max": {
+          "median_all_attempts": 103.882787234567,
+          "p95_all_attempts": 497.10850655218223
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.58678889190192,
+          "p95_all_attempts": 359.0962359520591
+        }
+      },
+      "c5_low_admittance": {
+        "n": 12,
+        "native_success": 2,
+        "native_plus_jitter": 0,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 12,
+        "terminal_1s_translational_stability_diagnostic": 0,
+        "per_type": {
+          "lab1": {
+            "n": 4,
+            "native_success": 2
+          },
+          "lab2": {
+            "n": 4,
+            "native_success": 0
+          },
+          "lab3": {
+            "n": 4,
+            "native_success": 0
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 22.133333333333333,
+          "p95_all_attempts": 25.005
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 103.98589412975127,
+          "p95_all_attempts": 399.5660433066227
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 9.489488118407035,
+          "p95_all_attempts": 26.647633418920467
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 3.566387029853501,
+          "p95_all_attempts": 20.19550273000905
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 10.276968030850034,
+          "p95_all_attempts": 79.7497265521593
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 649.4986109443887,
+          "p95_all_attempts": 1064.5468313116264
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 102.74519649403553,
+          "p95_all_attempts": 517.8913311544223
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.3001829771942337,
+          "p95_all_attempts": 1.1651915391790189
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.9144219159298437,
+          "p95_all_attempts": 6.751568108016581
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.35701872534194445,
+          "p95_all_attempts": 0.8906976793962254
+        },
+        "jitter_peak": {
+          "median_all_attempts": 3.8698523041388455,
+          "p95_all_attempts": 7.933455396735718
+        },
+        "force_max": {
+          "median_all_attempts": 103.98589412975127,
+          "p95_all_attempts": 324.23593193420965
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.58678889190192,
+          "p95_all_attempts": 257.00148883112087
+        }
+      },
+      "c6_antiwindup": {
+        "n": 36,
+        "native_success": 23,
+        "native_plus_jitter": 22,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 36,
+        "terminal_1s_translational_stability_diagnostic": 9,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 10
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 4
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 9
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 18.416666666666664,
+          "p95_all_attempts": 23.058333333333334
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 104.90681706586186,
+          "p95_all_attempts": 620.1762299104006
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1110616190899005,
+          "p95_all_attempts": 11.151984875078652
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 1.496836054752438,
+          "p95_all_attempts": 41.10408933366246
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.404021567549401,
+          "p95_all_attempts": 39.056324200910936
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 495.95786869177533,
+          "p95_all_attempts": 728.0400723547829
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 55.019418385475255,
+          "p95_all_attempts": 748.6089272986924
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.13827754608737086,
+          "p95_all_attempts": 1.8845845879027892
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.4628743212027053,
+          "p95_all_attempts": 10.221990773231798
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.1119656652944413,
+          "p95_all_attempts": 0.45567707213879105
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.2241823904456506,
+          "p95_all_attempts": 2.8863270334151276
+        },
+        "force_max": {
+          "median_all_attempts": 104.57197305473895,
+          "p95_all_attempts": 399.2603781798185
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.72718936310528,
+          "p95_all_attempts": 239.71400137611442
+        }
+      },
+      "c7_progress_timeout": {
+        "n": 36,
+        "native_success": 25,
+        "native_plus_jitter": 25,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 36,
+        "terminal_1s_translational_stability_diagnostic": 8,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 8
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 5
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 12
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 18.925,
+          "p95_all_attempts": 26.525
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 100.82183124029189,
+          "p95_all_attempts": 466.7073101256082
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1110616190899005,
+          "p95_all_attempts": 11.151984875078652
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 1.5626714760341756,
+          "p95_all_attempts": 14.427342892153904
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.6739632790401298,
+          "p95_all_attempts": 51.492375465949266
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 518.1351311507373,
+          "p95_all_attempts": 1343.6407640037394
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 52.07564547048359,
+          "p95_all_attempts": 552.3656256481192
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.08565248474039923,
+          "p95_all_attempts": 1.071004966569069
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.36782509678208847,
+          "p95_all_attempts": 7.795085966491653
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.0859485402195412,
+          "p95_all_attempts": 0.38553863096179486
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.2091281215561804,
+          "p95_all_attempts": 2.9162790655098934
+        },
+        "force_max": {
+          "median_all_attempts": 99.57395150321514,
+          "p95_all_attempts": 396.14989184299964
+        },
+        "force_med_max": {
+          "median_all_attempts": 68.68239933658909,
+          "p95_all_attempts": 211.8501088837592
+        }
+      },
+      "c8_fixed_unload_target": {
+        "n": 12,
+        "native_success": 2,
+        "native_plus_jitter": 2,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 12,
+        "terminal_1s_translational_stability_diagnostic": 2,
+        "per_type": {
+          "lab1": {
+            "n": 4,
+            "native_success": 1
+          },
+          "lab2": {
+            "n": 4,
+            "native_success": 1
+          },
+          "lab3": {
+            "n": 4,
+            "native_success": 0
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 18.866666666666667,
+          "p95_all_attempts": 23.21333333333333
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 103.882787234567,
+          "p95_all_attempts": 582.4567732767466
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1580142544307295,
+          "p95_all_attempts": 12.075275076050765
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 2.0826033111089783,
+          "p95_all_attempts": 34.551054134121706
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 2.4631335328956103,
+          "p95_all_attempts": 83.73416699324821
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 518.7346371765082,
+          "p95_all_attempts": 1052.457314840769
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 49.31584866022388,
+          "p95_all_attempts": 389.8446321270516
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.08565248474039923,
+          "p95_all_attempts": 1.035736653874491
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.3958946371497653,
+          "p95_all_attempts": 5.194947178128008
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.08512085452943967,
+          "p95_all_attempts": 0.4000553445098302
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.262689145932153,
+          "p95_all_attempts": 3.133370583010419
+        },
+        "force_max": {
+          "median_all_attempts": 101.96408789850207,
+          "p95_all_attempts": 582.4567732767466
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.4566136166149,
+          "p95_all_attempts": 310.3458403383762
+        }
+      },
+      "c9_z_antiwindup": {
+        "n": 36,
+        "native_success": 14,
+        "native_plus_jitter": 14,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 36,
+        "terminal_1s_translational_stability_diagnostic": 8,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 9
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 1
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 4
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 19.866666666666667,
+          "p95_all_attempts": 25.5
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 102.37818979460343,
+          "p95_all_attempts": 448.64209006253026
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 7.1110616190899005,
+          "p95_all_attempts": 11.151984875078652
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 2.4324618154911306,
+          "p95_all_attempts": 24.30796433933954
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.843740876762825,
+          "p95_all_attempts": 69.80377367908494
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 596.6492058037231,
+          "p95_all_attempts": 825.1863065628102
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 55.824792885890616,
+          "p95_all_attempts": 444.6949094197507
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.09910407707764865,
+          "p95_all_attempts": 1.556891154248448
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 0.4619064508758447,
+          "p95_all_attempts": 10.822483779557576
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.09616337272545711,
+          "p95_all_attempts": 0.42115310841359843
+        },
+        "jitter_peak": {
+          "median_all_attempts": 1.2091281215561804,
+          "p95_all_attempts": 2.921776937421961
+        },
+        "force_max": {
+          "median_all_attempts": 101.13031005752667,
+          "p95_all_attempts": 382.99295079390504
+        },
+        "force_med_max": {
+          "median_all_attempts": 73.03446283939974,
+          "p95_all_attempts": 220.50954086001886
+        }
+      },
+      "v1": {
+        "n": 36,
+        "native_success": 12,
+        "native_plus_jitter": 0,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 35,
+        "terminal_1s_translational_stability_diagnostic": 3,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 6
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 4
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 2
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 13.033333333333333,
+          "p95_all_attempts": 20.2375
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 121.81210616498095,
+          "p95_all_attempts": 1156.2372265235904
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 10.673097537649566,
+          "p95_all_attempts": 64.24053206028206
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 4.7032453691594345,
+          "p95_all_attempts": 31.881936005394536
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 2.207575472986884,
+          "p95_all_attempts": 83.53292212919536
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 429.0148387976588,
+          "p95_all_attempts": 1336.3986000087546
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 148.95701395734352,
+          "p95_all_attempts": 852.6038177593925
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.907440329125754,
+          "p95_all_attempts": 3.049717006450096
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 2.1679335193923683,
+          "p95_all_attempts": 13.581794628020226
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.7533626586642526,
+          "p95_all_attempts": 1.5399091816868293
+        },
+        "jitter_peak": {
+          "median_all_attempts": 4.527620667893272,
+          "p95_all_attempts": 7.965030293168714
+        },
+        "force_max": {
+          "median_all_attempts": 105.02637175196442,
+          "p95_all_attempts": 637.8253106634207
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.773707711034,
+          "p95_all_attempts": 478.8490745376904
+        }
+      },
+      "v2": {
+        "n": 36,
+        "native_success": 18,
+        "native_plus_jitter": 0,
+        "tracking_5mm_pass": 0,
+        "goal_fullcycle_qualified": null,
+        "failed_100mm_necessary_gate": 36,
+        "terminal_1s_translational_stability_diagnostic": 11,
+        "per_type": {
+          "lab1": {
+            "n": 12,
+            "native_success": 6
+          },
+          "lab2": {
+            "n": 12,
+            "native_success": 2
+          },
+          "lab3": {
+            "n": 12,
+            "native_success": 10
+          }
+        },
+        "duration_s": {
+          "median_all_attempts": 15.583333333333332,
+          "p95_all_attempts": 19.6875
+        },
+        "all_phase_force_peak_N": {
+          "median_all_attempts": 129.3115878473495,
+          "p95_all_attempts": 543.9560691695714
+        },
+        "insertion_tracking_peak_mm": {
+          "median_all_attempts": 10.673097537649566,
+          "p95_all_attempts": 32.5842821845767
+        },
+        "release_retaining_clip_xy_displacement_mm": {
+          "median_all_attempts": 3.0925337508670885,
+          "p95_all_attempts": 10.890319922221632
+        },
+        "final_position_error_mm": {
+          "median_all_attempts": 1.1657437577522465,
+          "p95_all_attempts": 10.502706094238526
+        },
+        "insertion_raw_force_impulse_Ns": {
+          "median_all_attempts": 440.51165798082826,
+          "p95_all_attempts": 1207.9126113394693
+        },
+        "insertion_retaining_clip_lateral_path_mm": {
+          "median_all_attempts": 126.52526418585003,
+          "p95_all_attempts": 598.671873985088
+        },
+        "retaining_clip_cart_lateral_residual_rms_mm": {
+          "median_all_attempts": 0.8844988319981688,
+          "p95_all_attempts": 2.0360579155136724
+        },
+        "retaining_clip_cart_lateral_residual_peak_mm": {
+          "median_all_attempts": 2.1679335193923683,
+          "p95_all_attempts": 11.34180549979502
+        },
+        "jitter_rms": {
+          "median_all_attempts": 0.6144743141517099,
+          "p95_all_attempts": 1.2255041504265352
+        },
+        "jitter_peak": {
+          "median_all_attempts": 4.474997978758319,
+          "p95_all_attempts": 7.749314410425812
+        },
+        "force_max": {
+          "median_all_attempts": 105.02637175196442,
+          "p95_all_attempts": 543.9560691695714
+        },
+        "force_med_max": {
+          "median_all_attempts": 74.773707711034,
+          "p95_all_attempts": 401.3500052382644
+        }
+      }
+    },
+    "source_hash_mismatches": {
+      "c10_no_release_xy_integral": [],
+      "c11_proportional_release_xy": []
+    },
+    "initial_pairing_exact": true,
+    "resource_lock_released": true,
+    "best_candidate": "c7_progress_timeout",
+    "native_success": "25/36",
+    "shared_jitter_diagnostic": "25/36",
+    "best_selection_scope": "Highest native success plus tracking-jitter diagnostic on complete36 development cases; not fullcycle or independent qualification.",
+    "goal_achieved": false,
+    "continuation_experiments": {
+      "common_endpoint": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_20261106",
+        "attempts": 36,
+        "scope": "necessary endpoint only"
+      },
+      "passive_trace": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_trace_20261106",
+        "attempts": 6,
+        "all_native_and_extension_trajectories_exact": true,
+        "scope": "instrumentation replay, no new independent cases"
+      },
+      "continuous_diagonal": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_continuous_20261106",
+        "state": "rejected",
+        "planned_initial_attempts": 9,
+        "scope": "same36 development case pool, new extension execution",
+        "attempts": 9,
+        "necessary_endpoint_pass": 0,
+        "reached_100mm": 0,
+        "all_native_prefixes_exact": true
+      },
+      "endpoint_ablation": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_ablation_20261106",
+        "state": "completed",
+        "planned_attempts": 18,
+        "scope": "case0 alltypes, path-only and execution-only; same development pool",
+        "attempts": 18,
+        "diagonal_endpoint_pass": 0,
+        "continuous_vertical_endpoint_pass": 2,
+        "all_native_prefixes_exact": true
+      },
+      "planned_reorientation": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_reorient_20261106",
+        "state": "rejected",
+        "planned_attempts": 9,
+        "infrastructure_rejected_before_simulation": 1,
+        "attempts": 9,
+        "endpoint_pass": 1,
+        "reference_endpoint_pass": 2
+      },
+      "runtime_shapes": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_runtime_shapes_20261106",
+        "state": "completed",
+        "planned_attempts": 6,
+        "scope": "read-only replay; not independent validation",
+        "infrastructure_failed_startups": 2,
+        "attempts": 6,
+        "all_native_and_extension_exact": true
+      },
+      "bounded_opening": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_open12_20261106",
+        "state": "completed_no_gain",
+        "planned_initial_attempts": 18,
+        "scope": "commonasymmetricfingercommandlimits; requested8vs12mm matchedpair, actualtravelreported",
+        "attempts": 18,
+        "bounded8_endpoint_pass": 2,
+        "bounded12_endpoint_pass": 2,
+        "all_native_prefixes_exact": true
+      },
+      "contact_identity": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_contact_identity_20261106",
+        "state": "quarantined",
+        "planned_attempts": 6,
+        "scope": "reporter instrumentation must pass exactreplay; notindependentvalidation",
+        "attempts": 6,
+        "all_native_prefixes_exact": true,
+        "all_extension_trajectories_exact": false,
+        "contact_reports": 0
+      },
+      "contact_preinit": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_contact_preinit_20261106",
+        "state": "completed_exact_replay",
+        "planned_attempts": 6,
+        "scope": "measurement initialization repair; not independent validation",
+        "attempts": 6,
+        "all_native_and_extension_exact": true
+      },
+      "scene_query": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_scene_query_20261106",
+        "state": "completed_exact_replay",
+        "planned_attempts": 6,
+        "scope": "read-only actual collision surface diagnostic; not independent validation",
+        "attempts": 6,
+        "all_native_and_extension_exact": true,
+        "ray_samples": 36,
+        "errors": 0
+      },
+      "mesh_geometry_analysis": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_mesh_audit_20261106",
+        "state": "completed",
+        "simulation_attempts": 0,
+        "samples": 18,
+        "dense_query_interrupted_for_memory": true,
+        "max_offline_live_vertex_difference_mm": 0.026450357650718848
+      },
+      "opening_armhold": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_armhold_20261106",
+        "state": "rejected_no_gain",
+        "planned_attempts": 9,
+        "scope": "single execution mechanism; same36 development pool, no independent validation",
+        "attempts": 9,
+        "necessary_endpoint_pass": 2,
+        "paired_baseline_pass": 2,
+        "all_native_prefixes_exact": true
+      },
+      "SAT_contact_diagnostic": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_sat_diagnostic_20261106",
+        "state": "completed_hypothesis_rejected",
+        "planned_attempts": 12,
+        "physics_execution_version_changed": true,
+        "scope": "diagnostic only, not performance candidate; within-SAT observer invariance",
+        "new_independent_cases": 0,
+        "attempts": 12,
+        "all_native_and_extension_exact": true,
+        "reference_necessary_endpoint_pass": 0,
+        "remaining_inconsistent_proxy_reports": 61,
+        "decision": "/home/ubuntu/tianshui/runs/upstream_endpoint_sat_diagnostic_20261106/decision.json"
+      },
+      "contact_direction_audit": {
+        "simulation_attempts": 0,
+        "state": "completed",
+        "PCM_far_reports": 199,
+        "SAT_far_reports_2_05mm": 55,
+        "SAT_tangent_over2mm": 53,
+        "scope": "offline saved traces; report interpretation only; not certification"
+      },
+      "contact_distance_diagnostic": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_contact_distance_20261106",
+        "state": "infrastructure_rejected_before_first_reset",
+        "planned_attempts": 12,
+        "physics_execution_version_changed": true,
+        "scope": "diagnostic only; PCM, contact generation distance halved; not performance candidate",
+        "new_independent_cases": 0,
+        "attempts": 0,
+        "infrastructure_failed_startups": 2
+      },
+      "contact_distance_tensor_diagnostic": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_contact_distance_tensor_20261106",
+        "state": "completed_not_a_repair",
+        "planned_attempts": 12,
+        "physics_execution_version_changed": true,
+        "scope": "diagnostic only; runtime setter after reset, before controller initialization; no geometry/instance changes",
+        "new_independent_cases": 0,
+        "attempts": 12,
+        "all_native_and_extension_exact": true,
+        "reference_necessary_endpoint_pass": 1,
+        "remaining_far_proxy_reports": 16,
+        "decision": "/home/ubuntu/tianshui/runs/upstream_endpoint_contact_distance_tensor_20261106/decision.json"
+      },
+      "adaptive_attitude_progress": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_adaptive_attitude_20261106",
+        "state": "rejected_no_endpoint_gain_retain_reachability_mechanism",
+        "planned_attempts": 9,
+        "physics_modified": false,
+        "scope": "case0 three types V1/V2/C7, development only; wrist attitude and achievable progress after original bounded8 opening",
+        "offline_feasible": 7,
+        "offline_failed": 2,
+        "new_independent_cases": 0,
+        "attempts": 9,
+        "necessary_endpoint_pass": 2,
+        "paired_baseline_pass": 2,
+        "large_reached100mm": 3,
+        "large_baseline_reached100mm": 0,
+        "all_native_and_opening_prefixes_exact": true
+      },
+      "finger_envelope_offline": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_finger_envelope_20261106",
+        "state": "rejected_offline_no_simulation",
+        "simulation_attempts": 0,
+        "reason": "large83–86mm after1800steps; no original45s feasibility"
+      },
+      "opening_end_xy_handover": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_handover_xy_20261106",
+        "state": "necessary_endpoint_gain_safety_not_certified",
+        "planned_attempts": 9,
+        "physics_modified": false,
+        "scope": "single encoder-reference handover mechanism; original Z/time/clip target unchanged",
+        "independent_validation_cases": 0,
+        "attempts": 9,
+        "necessary_endpoint_pass": 4,
+        "paired_baseline_pass": 2,
+        "all_native_and_opening_prefixes_exact": true,
+        "expanded": false,
+        "safety_certified": false
+      },
+      "cartesian_bound_withdrawal": {
+        "root": "/home/ubuntu/tianshui/runs/upstream_endpoint_twist_bounds_20261106",
+        "state": "completed_rejected_no_endpoint_gain",
+        "planned_attempts": 9,
+        "physics_modified": false,
+        "scope": "same nine cases, explicit original Goal Cartesian velocity/acceleration constraints",
+        "independent_validation_cases": 0,
+        "attempts": 9,
+        "necessary_endpoint_pass": 1,
+        "paired_baseline_pass": 4,
+        "all_native_and_opening_prefixes_exact": true,
+        "fullcycle_certified": false
+      }
+    },
+    "active_coordinator_pid": null,
+    "active_run": "/home/ubuntu/tianshui/runs/upstream_endpoint_twist_bounds_20261106",
+    "state": "paused_by_user_for_project_review",
+    "next_action": "Analysis only. No new experiment or automatic continuation without explicit user resumption."
+  },
+  "ledger": [
+    {
+      "id": "v1",
+      "n": 36,
+      "success": 12,
+      "jitter": 0,
+      "note": "上游 V1 规则＋共同 rl8",
+      "types": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "v2",
+      "n": 36,
+      "success": 18,
+      "jitter": 0,
+      "note": "上游 V2 规则＋共同 rl8",
+      "types": [
+        6,
+        2,
+        10
+      ]
+    },
+    {
+      "id": "c1_bounded",
+      "n": 12,
+      "success": 6,
+      "jitter": 0,
+      "note": "圆周搜索改为绝对有界偏移",
+      "types": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "c2_projected",
+      "n": 36,
+      "success": 22,
+      "jitter": 22,
+      "note": "C1＋0.35 mm/帧、实测 3 mm 输出边界",
+      "types": [
+        8,
+        5,
+        9
+      ]
+    },
+    {
+      "id": "c3_tracking_margin",
+      "n": 12,
+      "success": 4,
+      "jitter": 4,
+      "note": "实测边界放宽到 4.5 mm",
+      "types": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "c4_slew_only",
+      "n": 12,
+      "success": 5,
+      "jitter": 4,
+      "note": "移除实测位置边界；接触容量警告，拒绝",
+      "types": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "c5_low_admittance",
+      "n": 12,
+      "success": 2,
+      "jitter": 0,
+      "note": "纵向反馈增益与爬行降为 1/4",
+      "types": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "c6_antiwindup",
+      "n": 36,
+      "success": 23,
+      "jitter": 22,
+      "note": "受限 XYZ 输出回馈积分器",
+      "types": [
+        10,
+        4,
+        9
+      ]
+    },
+    {
+      "id": "c7_progress_timeout",
+      "n": 36,
+      "success": 25,
+      "jitter": 25,
+      "note": "C2＋按实测进度延长阶段计时",
+      "types": [
+        8,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "c8_fixed_unload_target",
+      "n": 12,
+      "success": 2,
+      "jitter": 2,
+      "note": "固定卸载目标",
+      "types": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "c9_z_antiwindup",
+      "n": 36,
+      "success": 14,
+      "jitter": 14,
+      "note": "仅 Z 反积分饱和",
+      "types": [
+        9,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "c10_no_release_xy_integral",
+      "n": 12,
+      "success": 2,
+      "jitter": 1,
+      "note": "关闭释放 XY 积分引导",
+      "types": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "c11_proportional_release_xy",
+      "n": 36,
+      "success": 18,
+      "jitter": 18,
+      "note": "释放改比例 XY 引导",
+      "types": [
+        9,
+        5,
+        4
+      ]
+    }
+  ],
+  "sac_success": [
+    11,
+    21,
+    14,
+    15,
+    21,
+    24,
+    19
+  ],
+  "endpoint": [
+    {
+      "name": "原生追加终点",
+      "rows": [
+        {
+          "method": "c7_progress_timeout",
+          "n": 12,
+          "pass": 0
+        },
+        {
+          "method": "v1",
+          "n": 12,
+          "pass": 2
+        },
+        {
+          "method": "v2",
+          "n": 12,
+          "pass": 3
+        }
+      ]
+    },
+    {
+      "name": "自适应姿态",
+      "rows": [
+        {
+          "method": "c7_progress_timeout__bounded8",
+          "n": 3,
+          "pass": 0
+        },
+        {
+          "method": "v1__bounded8",
+          "n": 3,
+          "pass": 1
+        },
+        {
+          "method": "v2__bounded8",
+          "n": 3,
+          "pass": 1
+        }
+      ]
+    },
+    {
+      "name": "横向让位交接",
+      "rows": [
+        {
+          "method": "c7_progress_timeout__bounded8",
+          "n": 3,
+          "pass": 0
+        },
+        {
+          "method": "v1__bounded8",
+          "n": 3,
+          "pass": 2
+        },
+        {
+          "method": "v2__bounded8",
+          "n": 3,
+          "pass": 2
+        }
+      ]
+    },
+    {
+      "name": "加入笛卡尔限速",
+      "rows": [
+        {
+          "method": "c7_progress_timeout__bounded8",
+          "n": 3,
+          "pass": 0
+        },
+        {
+          "method": "v1__bounded8",
+          "n": 3,
+          "pass": 1
+        },
+        {
+          "method": "v2__bounded8",
+          "n": 3,
+          "pass": 0
+        }
+      ]
+    }
+  ],
+  "publication": "local_review_only",
+  "experiments": "paused_by_user"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "method": "c2_projected",
+    "source": "runs/upstream_matched_20261106/c2_projected/batch_04_01/case_04_lab3.npz",
+    "cart_entry_frame": 227,
+    "unload_entry_frame": 827,
+    "release_entry_frame": 877,
+    "cart_entry_time_s": 3.783333333333333,
+    "unload_entry_time_s": 13.783333333333333,
+    "release_entry_time_s": 14.616666666666667,
+    "unload_z_delta_mm": -10.780095171928462,
+    "release_z_delta_mm": -9.358338129520472
+  },
+  {
+    "method": "c7_progress_timeout",
+    "source": "runs/upstream_matched_20261106/c7_progress_timeout/batch_04_01/case_04_lab3.npz",
+    "cart_entry_frame": 227,
+    "unload_entry_frame": 893,
+    "release_entry_frame": 943,
+    "cart_entry_time_s": 3.783333333333333,
+    "unload_entry_time_s": 14.883333333333333,
+    "release_entry_time_s": 15.716666666666667,
+    "unload_z_delta_mm": -1.9353619337082462,
+    "release_z_delta_mm": -1.024349641799982
+  }
+]

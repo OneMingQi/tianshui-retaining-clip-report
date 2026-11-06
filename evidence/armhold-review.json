@@ -1,0 +1,529 @@
+{
+  "episodes": [
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "00_lab1",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": "extension_tracking_limit",
+        "sample_count": 327,
+        "withdrawal_vertical_m": 0.04362581670284271,
+        "verify_1s_complete": false,
+        "position_peak_m": 0.0007882809093310391,
+        "angle_peak_rad": 0.00976781139183509,
+        "speed_rms_m_s": 0.0067321837681297856,
+        "angular_speed_rms_rad_s": 0.027237828198728033,
+        "position_p2p_m": 0.000869489423010157,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 19.516666666666666
+      },
+      "trace": {
+        "n": 327,
+        "model_q_encoder_usd_max_abs": 0.9999999999990954,
+        "fk_encoder_vs_observation_peak_mm": 0.018641789260633024,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 1.200000000000001,
+        "peak_arm_command_acceleration_rad_s2": 144.0000000000001,
+        "peak_velocity_joint": "L_Shoulder_pitch_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.0,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "00_lab2",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "joint_vel",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque",
+          "phase",
+          "phase_before"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": "extension_tracking_limit",
+        "sample_count": 503,
+        "withdrawal_vertical_m": 0.07271432876586914,
+        "verify_1s_complete": false,
+        "position_peak_m": 0.00979916256978323,
+        "angle_peak_rad": 0.027564882221089763,
+        "speed_rms_m_s": 0.09417223005295812,
+        "angular_speed_rms_rad_s": 0.3388662602687671,
+        "position_p2p_m": 0.01589387847895012,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 32.11666666666667
+      },
+      "trace": {
+        "n": 503,
+        "model_q_encoder_usd_max_abs": 1.0,
+        "fk_encoder_vs_observation_peak_mm": 0.019739060687637252,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 1.200000000000001,
+        "peak_arm_command_acceleration_rad_s2": 144.0000000000001,
+        "peak_velocity_joint": "L_Shoulder_pitch_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.0,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "c7_progress_timeout__bounded8",
+      "case": "00_lab3",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": null,
+        "sample_count": 605,
+        "withdrawal_vertical_m": 0.10501189529895782,
+        "verify_1s_complete": true,
+        "position_peak_m": 0.007015314883833789,
+        "angle_peak_rad": 0.015906286308001116,
+        "speed_rms_m_s": 0.05599050553467511,
+        "angular_speed_rms_rad_s": 0.20239669319043893,
+        "position_p2p_m": 0.005112922590912838,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 29.316666666666666
+      },
+      "trace": {
+        "n": 605,
+        "model_q_encoder_usd_max_abs": 0.9999999999996556,
+        "fk_encoder_vs_observation_peak_mm": 0.011802678090728696,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 0.15712537505465085,
+        "peak_arm_command_acceleration_rad_s2": 3.7611807718519463,
+        "peak_velocity_joint": "L_elbow_roll_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.01441390692980793,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "v1__bounded8",
+      "case": "00_lab1",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": "extension_tracking_limit",
+        "sample_count": 338,
+        "withdrawal_vertical_m": 0.046372413635253906,
+        "verify_1s_complete": false,
+        "position_peak_m": 0.00261013372804495,
+        "angle_peak_rad": 0.011816904157220818,
+        "speed_rms_m_s": 0.05135745882889152,
+        "angular_speed_rms_rad_s": 0.2905935711955149,
+        "position_p2p_m": 0.004767826353278822,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 18.633333333333333
+      },
+      "trace": {
+        "n": 338,
+        "model_q_encoder_usd_max_abs": 0.9999999999989321,
+        "fk_encoder_vs_observation_peak_mm": 0.018998781503631657,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 1.200000000000001,
+        "peak_arm_command_acceleration_rad_s2": 144.0000000000001,
+        "peak_velocity_joint": "L_Shoulder_pitch_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.0,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "v1__bounded8",
+      "case": "00_lab2",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "joint_vel",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque",
+          "phase",
+          "phase_before"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": "extension_raw_force_limit",
+        "sample_count": 3,
+        "withdrawal_vertical_m": 0.002110786736011505,
+        "verify_1s_complete": false,
+        "position_peak_m": 0.04612595299016747,
+        "angle_peak_rad": 0.1370118186864864,
+        "speed_rms_m_s": 0.08397875575234824,
+        "angular_speed_rms_rad_s": 0.2515007263772717,
+        "position_p2p_m": 0.002576827656651843,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 19.383333333333333
+      },
+      "trace": {
+        "n": 3,
+        "model_q_encoder_usd_max_abs": 0.9999999990145839,
+        "fk_encoder_vs_observation_peak_mm": 0.05872748713002328,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 1.200000000000001,
+        "peak_arm_command_acceleration_rad_s2": 72.00000000000006,
+        "peak_velocity_joint": "L_Shoulder_pitch_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.0,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "v1__bounded8",
+      "case": "00_lab3",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": true,
+        "reason": null,
+        "sample_count": 605,
+        "withdrawal_vertical_m": 0.10500900447368622,
+        "verify_1s_complete": true,
+        "position_peak_m": 0.0017657844646843442,
+        "angle_peak_rad": 0.013024999485002004,
+        "speed_rms_m_s": 7.044507171886386e-05,
+        "angular_speed_rms_rad_s": 0.0,
+        "position_p2p_m": 2.4328435545770976e-06,
+        "pose_stability_pass": true,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 23.0
+      },
+      "trace": {
+        "n": 605,
+        "model_q_encoder_usd_max_abs": 0.9999999999996146,
+        "fk_encoder_vs_observation_peak_mm": 0.012479209641018733,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 0.13329926042778384,
+        "peak_arm_command_acceleration_rad_s2": 1.1572722232477295,
+        "peak_velocity_joint": "L_elbow_roll_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.01737408694544984,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "00_lab1",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": "extension_tracking_limit",
+        "sample_count": 338,
+        "withdrawal_vertical_m": 0.046372413635253906,
+        "verify_1s_complete": false,
+        "position_peak_m": 0.00261013372804495,
+        "angle_peak_rad": 0.011816904157220818,
+        "speed_rms_m_s": 0.05135745882889152,
+        "angular_speed_rms_rad_s": 0.2905935711955149,
+        "position_p2p_m": 0.004767826353278822,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 18.633333333333333
+      },
+      "trace": {
+        "n": 338,
+        "model_q_encoder_usd_max_abs": 0.9999999999989321,
+        "fk_encoder_vs_observation_peak_mm": 0.018998781503631657,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 1.200000000000001,
+        "peak_arm_command_acceleration_rad_s2": 144.0000000000001,
+        "peak_velocity_joint": "L_Shoulder_pitch_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.0,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "00_lab2",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": true,
+        "reason": null,
+        "sample_count": 605,
+        "withdrawal_vertical_m": 0.105001300573349,
+        "verify_1s_complete": true,
+        "position_peak_m": 0.0016930096701370967,
+        "angle_peak_rad": 0.014956407003005451,
+        "speed_rms_m_s": 3.945656906837183e-05,
+        "angular_speed_rms_rad_s": 0.0,
+        "position_p2p_m": 1.9651185882642426e-06,
+        "pose_stability_pass": true,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 29.2
+      },
+      "trace": {
+        "n": 605,
+        "model_q_encoder_usd_max_abs": 0.9999999999996848,
+        "fk_encoder_vs_observation_peak_mm": 0.01200603599884582,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 0.13632191003795757,
+        "peak_arm_command_acceleration_rad_s2": 1.304567833227388,
+        "peak_velocity_joint": "L_elbow_roll_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.012256350273097794,
+        "observer_dynamics_unchanged": true
+      }
+    },
+    {
+      "method": "v2__bounded8",
+      "case": "00_lab3",
+      "trajectory_differences": {
+        "_extension": [
+          "ee_pos",
+          "ee_cmd",
+          "joint_pos",
+          "ee_quat",
+          "opening",
+          "retaining_clip_pos",
+          "retaining_clip_delta",
+          "retaining_clip_quat",
+          "retaining_clip_speed",
+          "force",
+          "torque"
+        ]
+      },
+      "endpoint": {
+        "necessary_endpoint_pass": false,
+        "reason": null,
+        "sample_count": 605,
+        "withdrawal_vertical_m": 0.10501959174871445,
+        "verify_1s_complete": true,
+        "position_peak_m": 0.017800523399496764,
+        "angle_peak_rad": 0.04644768884696824,
+        "speed_rms_m_s": 0.12219404376716302,
+        "angular_speed_rms_rad_s": 0.5054743551634505,
+        "position_p2p_m": 0.020304071982046704,
+        "pose_stability_pass": false,
+        "native_controller_failed": false,
+        "gripper_clearance_certified": false,
+        "contact_separation_certified": false,
+        "fullcycle_certified": false,
+        "note": "Finite-difference pose stability diagnostic. Contact clearance, compensated wrench and full-history hard safety not certified.",
+        "total_duration_s": 25.666666666666668
+      },
+      "trace": {
+        "n": 605,
+        "model_q_encoder_usd_max_abs": 0.9999999999999994,
+        "fk_encoder_vs_observation_peak_mm": 0.012153793443860167,
+        "tensor_vs_native_retaining_clip_peak_mm": 0.0,
+        "peak_arm_command_velocity_rad_s": 0.16754730042969124,
+        "peak_arm_command_acceleration_rad_s2": 10.052838025781474,
+        "peak_velocity_joint": "L_elbow_roll_Joint",
+        "minimum_aabb_gap_m": 0.0,
+        "final_aabb_gap_m": 0.01408426371232585,
+        "observer_dynamics_unchanged": true
+      }
+    }
+  ],
+  "all_trajectories_exact": false,
+  "fullcycle_certified": false,
+  "all_native_prefixes_exact": true,
+  "extension_changes_intentional": true,
+  "summaries": {
+    "c7_progress_timeout__bounded8": {
+      "n": 3,
+      "passes": 0,
+      "baseline_passes": 0,
+      "pairs": [
+        {
+          "case": "00_lab1",
+          "candidate_pass": false,
+          "baseline_pass": false
+        },
+        {
+          "case": "00_lab2",
+          "candidate_pass": false,
+          "baseline_pass": false
+        },
+        {
+          "case": "00_lab3",
+          "candidate_pass": false,
+          "baseline_pass": false
+        }
+      ]
+    },
+    "v1__bounded8": {
+      "n": 3,
+      "passes": 1,
+      "baseline_passes": 1,
+      "pairs": [
+        {
+          "case": "00_lab1",
+          "candidate_pass": false,
+          "baseline_pass": false
+        },
+        {
+          "case": "00_lab2",
+          "candidate_pass": false,
+          "baseline_pass": false
+        },
+        {
+          "case": "00_lab3",
+          "candidate_pass": true,
+          "baseline_pass": true
+        }
+      ]
+    },
+    "v2__bounded8": {
+      "n": 3,
+      "passes": 1,
+      "baseline_passes": 1,
+      "pairs": [
+        {
+          "case": "00_lab1",
+          "candidate_pass": false,
+          "baseline_pass": false
+        },
+        {
+          "case": "00_lab2",
+          "candidate_pass": true,
+          "baseline_pass": true
+        },
+        {
+          "case": "00_lab3",
+          "candidate_pass": false,
+          "baseline_pass": false
+        }
+      ]
+    }
+  },
+  "decision": "review native pairing, opening joint execution and full trajectory before expansion; no automatic fullcycle qualification"
+}

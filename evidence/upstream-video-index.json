@@ -1,0 +1,429 @@
+{
+  "model": "xy_policy_ft_v8.pt",
+  "mode": "replace",
+  "scale": 1.0,
+  "seed": 91,
+  "amp_mm": 5.0,
+  "episodes": [
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00000",
+      "video": "videos_by_outcome/lab1_ok_ep_00000.mp4",
+      "delta_mm": [
+        -0.15,
+        0.1,
+        -0.47
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00000.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00001",
+      "video": "videos_by_outcome/lab1_ok_ep_00001.mp4",
+      "delta_mm": [
+        -0.13,
+        0.1,
+        -0.47
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00001.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00002",
+      "video": "videos_by_outcome/lab1_ok_ep_00002.mp4",
+      "delta_mm": [
+        -0.09,
+        0.28,
+        -0.58
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00002.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00003",
+      "video": "videos_by_outcome/lab1_ok_ep_00003.mp4",
+      "delta_mm": [
+        -0.05,
+        0.29,
+        -0.6
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00003.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00004",
+      "video": "videos_by_outcome/lab1_ok_ep_00004.mp4",
+      "delta_mm": [
+        -0.14,
+        0.27,
+        -0.57
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00004.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00005",
+      "video": "videos_by_outcome/lab1_ok_ep_00005.mp4",
+      "delta_mm": [
+        -0.15,
+        0.29,
+        -0.6
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00005.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00006",
+      "video": "videos_by_outcome/lab1_ok_ep_00006.mp4",
+      "delta_mm": [
+        0.89,
+        0.1,
+        -0.47
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00006.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00007",
+      "video": "videos_by_outcome/lab1_ok_ep_00007.mp4",
+      "delta_mm": [
+        -0.12,
+        0.3,
+        -0.61
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00007.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00008",
+      "video": "videos_by_outcome/lab1_ok_ep_00008.mp4",
+      "delta_mm": [
+        -0.14,
+        0.24,
+        -0.52
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00008.jpg"
+    },
+    {
+      "lab": "lab1",
+      "outcome": "ok",
+      "episode": "ep_00009",
+      "video": "videos_by_outcome/lab1_ok_ep_00009.mp4",
+      "delta_mm": [
+        -0.12,
+        0.31,
+        -0.66
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab1_ok_ep_00009.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00000",
+      "video": "videos_by_outcome/lab2_ok_ep_00000.mp4",
+      "delta_mm": [
+        -0.06,
+        0.09,
+        -0.85
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00000.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00002",
+      "video": "videos_by_outcome/lab2_ok_ep_00002.mp4",
+      "delta_mm": [
+        -0.18,
+        -0.0,
+        -1.54
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00002.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00003",
+      "video": "videos_by_outcome/lab2_ok_ep_00003.mp4",
+      "delta_mm": [
+        -0.26,
+        0.01,
+        -0.99
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00003.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00004",
+      "video": "videos_by_outcome/lab2_ok_ep_00004.mp4",
+      "delta_mm": [
+        0.85,
+        0.11,
+        -0.03
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00004.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00007",
+      "video": "videos_by_outcome/lab2_ok_ep_00007.mp4",
+      "delta_mm": [
+        0.53,
+        0.63,
+        0.02
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00007.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00008",
+      "video": "videos_by_outcome/lab2_ok_ep_00008.mp4",
+      "delta_mm": [
+        1.51,
+        0.12,
+        -0.1
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00008.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "ok",
+      "episode": "ep_00009",
+      "video": "videos_by_outcome/lab2_ok_ep_00009.mp4",
+      "delta_mm": [
+        1.4,
+        0.05,
+        -0.26
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_ok_ep_00009.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "fail",
+      "episode": "ep_00001",
+      "video": "videos_by_outcome/lab2_fail_ep_00001.mp4",
+      "delta_mm": [
+        -2.35,
+        0.13,
+        0.01
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab2_fail_ep_00001.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "fail",
+      "episode": "ep_00005",
+      "video": "videos_by_outcome/lab2_fail_ep_00005.mp4",
+      "delta_mm": [
+        -2.14,
+        0.45,
+        0.02
+      ],
+      "handover": "seat_z_only",
+      "reason": "",
+      "poster": "posters/lab2_fail_ep_00005.jpg"
+    },
+    {
+      "lab": "lab2",
+      "outcome": "fail",
+      "episode": "ep_00006",
+      "video": "videos_by_outcome/lab2_fail_ep_00006.mp4",
+      "delta_mm": [
+        -2.66,
+        26.0,
+        3.11
+      ],
+      "handover": "timeout",
+      "reason": "release_high z=139mm",
+      "poster": "posters/lab2_fail_ep_00006.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "ok",
+      "episode": "ep_00000",
+      "video": "videos_by_outcome/lab3_ok_ep_00000.mp4",
+      "delta_mm": [
+        -0.03,
+        0.58,
+        -0.37
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_ok_ep_00000.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "ok",
+      "episode": "ep_00002",
+      "video": "videos_by_outcome/lab3_ok_ep_00002.mp4",
+      "delta_mm": [
+        1.66,
+        0.53,
+        -0.37
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_ok_ep_00002.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "ok",
+      "episode": "ep_00005",
+      "video": "videos_by_outcome/lab3_ok_ep_00005.mp4",
+      "delta_mm": [
+        0.32,
+        0.5,
+        -0.38
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_ok_ep_00005.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "ok",
+      "episode": "ep_00006",
+      "video": "videos_by_outcome/lab3_ok_ep_00006.mp4",
+      "delta_mm": [
+        -0.1,
+        0.82,
+        -0.38
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_ok_ep_00006.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "ok",
+      "episode": "ep_00007",
+      "video": "videos_by_outcome/lab3_ok_ep_00007.mp4",
+      "delta_mm": [
+        0.13,
+        0.52,
+        -0.38
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_ok_ep_00007.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "ok",
+      "episode": "ep_00008",
+      "video": "videos_by_outcome/lab3_ok_ep_00008.mp4",
+      "delta_mm": [
+        0.19,
+        0.61,
+        -0.37
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_ok_ep_00008.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "fail",
+      "episode": "ep_00001",
+      "video": "videos_by_outcome/lab3_fail_ep_00001.mp4",
+      "delta_mm": [
+        62.29,
+        47.55,
+        -4.45
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_fail_ep_00001.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "fail",
+      "episode": "ep_00003",
+      "video": "videos_by_outcome/lab3_fail_ep_00003.mp4",
+      "delta_mm": [
+        -7.72,
+        10.28,
+        -11.67
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_fail_ep_00003.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "fail",
+      "episode": "ep_00004",
+      "video": "videos_by_outcome/lab3_fail_ep_00004.mp4",
+      "delta_mm": [
+        3.06,
+        1.16,
+        -0.38
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_fail_ep_00004.jpg"
+    },
+    {
+      "lab": "lab3",
+      "outcome": "fail",
+      "episode": "ep_00009",
+      "video": "videos_by_outcome/lab3_fail_ep_00009.mp4",
+      "delta_mm": [
+        3.21,
+        1.2,
+        -0.37
+      ],
+      "handover": "seat",
+      "reason": "",
+      "poster": "posters/lab3_fail_ep_00009.jpg"
+    }
+  ]
+}
