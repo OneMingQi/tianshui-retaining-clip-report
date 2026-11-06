@@ -61,3 +61,9 @@ html{scroll-behavior:auto}
 @media(max-width:1190px){.paper-main .result-value{font-size:35px}.abstract-result{padding:0 12px}.result-unit{font-size:18px}.result-direction{font-size:20px}}
 @media(max-width:680px){.abstract-results-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:23px}.abstract-result:nth-child(3){padding-left:0;border-left:0}.paper-main .result-value{font-size:37px}.abstract-results{margin:25px 0;padding:20px 0}.result-label{font-size:12px}.result-context{font-size:10px}.result-unit{font-size:19px}}
 @media print{.abstract-results{break-inside:avoid}.paper-main .result-value{font-size:24pt}.result-label{font-size:8pt}.result-context,.results-context{font-size:7pt}}
+
+/* Publication version and iteration status sit quietly above the full technical title. */
+.publication-badges{display:flex;align-items:center;gap:9px;margin:-9px 0 19px;font-family:"Noto Sans CJK SC",Arial,sans-serif;font-size:11px;line-height:1.5;letter-spacing:.02em}
+.version-badge,.iteration-badge{display:inline-flex;align-items:center;padding:5px 11px;border-radius:4px;border:1px solid #d6c9b5}
+.version-badge{color:#8b4d35;background:#f1e8dd;font-weight:600;font-variant-numeric:tabular-nums}.iteration-badge{gap:7px;color:#606e50;border-color:#d1d7c5;background:#edf0e7}.status-dot{width:6px;height:6px;border-radius:50%;background:#7a8b66}
+@media(max-width:580px){.publication-badges{margin:-7px 0 16px;font-size:11px}.version-badge,.iteration-badge{padding:4px 10px}}

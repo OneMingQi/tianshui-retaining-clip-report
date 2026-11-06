@@ -1,5 +1,5 @@
 {
-  "version": "research-20261106.7",
+  "version": "research-20261106.8",
   "records": [
     {
       "path": "assets/diagrams/algorithm-architecture.svg",
@@ -43,7 +43,7 @@
     },
     {
       "path": "design/introduction-and-task.md",
-      "sha256": "034e405dc1b3179beeb60cf3ff56a10f4de6c7a2ef818d9b2178061cd85e71f0",
+      "sha256": "3ffc026dd9151ddc3adde7b4007e155c3296028f4fbe180789b981ff2cb732ca",
       "kind": "editable design specification"
     },
     {
@@ -94,12 +94,12 @@
     {
       "path": "render_research.py",
       "kind": "report design and rendering implementation",
-      "sha256": "0818d639e367873d669c9af59f8a68be3962c97808526467381fed89728ddeee"
+      "sha256": "70c1515810f9319d4bb7228660c10f59f990b01c1dcaaa6077b8fc17207788f2"
     },
     {
       "path": "assets/editorial.css",
       "kind": "report design and rendering implementation",
-      "sha256": "3725ec9fc34f178b343870cfae357ab818f9c7f4ea02d2ae48cec5108e76d1c7"
+      "sha256": "e4166f9bf0bbc1a67c48e4a8633d8601ab4a2f26d83a7a0489e2eb3623ebdaf7"
     }
   ]
 }

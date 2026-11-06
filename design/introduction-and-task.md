@@ -1,5 +1,7 @@
 <div class="paper-type">ROBOTICS &amp; LEARNING · 算法设计与实验研究</div>
 
+<div class="publication-badges" aria-label="文档版本 v0.3，方案迭代中"><span class="version-badge">v0.3</span><span class="iteration-badge"><span aria-hidden="true" class="status-dot"></span>迭代中</span></div>
+
 # 天水项目固定夹装配：<br><span class="title-detail">接触感知、柔顺控制与残差学习的算法设计及验证</span>
 
 <p class="paper-subtitle">Tianshui Project — Retaining Clip Assembly:<br>Contact-Aware Compliant Control, Residual Learning and Validation</p>
