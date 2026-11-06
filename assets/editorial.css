@@ -50,3 +50,14 @@ html{scroll-behavior:auto}
 .research-paper .sidebar .evidence-nav a{white-space:normal;font-size:10px;line-height:1.6;padding:5px 0}
 @media(max-width:900px){.research-paper .sidebar{overflow:visible}.research-paper .sidebar .evidence-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;flex-basis:100%;gap:4px 18px;border:0;padding:8px 0;margin:0}.research-paper .sidebar .evidence-nav a{font-size:11px}.research-paper .sidebar nav>a[href="#experiments"]{flex-basis:100%}}
 @media(max-width:580px){.research-paper .sidebar .evidence-nav{grid-template-columns:1fr;gap:0;padding-left:12px;border-left:1px solid #ddd5c6}.research-paper .sidebar .evidence-nav a{padding:5px 0}}
+
+/* Results in the abstract: clear numerical hierarchy with denominators kept adjacent. */
+.abstract-results{margin:30px 0 26px;padding:22px 0 17px;border-top:1px solid #b7ab93;border-bottom:1px solid #d6cdbd}
+.results-eyebrow{font-size:11px;letter-spacing:.08em;color:#81674f;margin-bottom:20px}
+.abstract-results-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.abstract-result{display:flex;flex-direction:column;padding:0 17px;border-left:1px solid #ded4c3;min-width:0}.abstract-result:first-child{padding-left:0;border-left:0}
+.result-label{font-size:12px;line-height:1.6;color:#605c52}.paper-main .result-value{display:block;font-family:Georgia,"Noto Serif CJK SC",serif;font-size:42px;font-weight:500;line-height:1.3;letter-spacing:-.035em;color:#914c35;font-variant-numeric:lining-nums tabular-nums;margin:9px 0 10px;white-space:nowrap}.result-unit{font-size:21px;letter-spacing:0;margin-left:3px}.result-direction{font-family:Arial,sans-serif;font-size:25px;vertical-align:4px;margin-right:3px;color:#6e7b5d}
+.result-context{font-size:10px;color:#6c675c;line-height:1.8}.results-context{font-size:10px;color:#81796b;margin-top:19px;line-height:1.8}
+@media(max-width:1190px){.paper-main .result-value{font-size:35px}.abstract-result{padding:0 12px}.result-unit{font-size:18px}.result-direction{font-size:20px}}
+@media(max-width:680px){.abstract-results-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:23px}.abstract-result:nth-child(3){padding-left:0;border-left:0}.paper-main .result-value{font-size:37px}.abstract-results{margin:25px 0;padding:20px 0}.result-label{font-size:12px}.result-context{font-size:10px}.result-unit{font-size:19px}}
+@media print{.abstract-results{break-inside:avoid}.paper-main .result-value{font-size:24pt}.result-label{font-size:8pt}.result-context,.results-context{font-size:7pt}}

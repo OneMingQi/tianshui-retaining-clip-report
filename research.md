@@ -16,6 +16,17 @@
 
 现阶段已在三型固定夹上完成装配动作演示，并形成同条件开发实验依据。最佳候选 C7 在小型开发子组取得 **12/12（100%）原生成功**；在三型共 36 个开发工况中取得 **25/36（69.4%）**，相对本地 V2 提升 **19.4 个百分点**。同组全部尝试的固定夹横向运动残差 RMS 中位数下降 **90.3%**（0.884 → 0.086 mm），原始腕力峰值中位数下降约 **22.0%**。这些结果显示，执行约束与进度协调能够同时改善开发工况下的装配表现和运动平稳性，并为 PACE 的结构设计提供依据。上述成绩来自历史控制方案的原生仿真协议；完整释放、回撤稳定、新工况泛化及真机闭环是后续验证目标。
 
+<div class="abstract-results" role="group" aria-label="已有开发实验的最佳阶段成果">
+<div class="results-eyebrow">已有开发实验 · 最佳阶段成果</div>
+<div class="abstract-results-grid">
+<div class="abstract-result"><span class="result-label">小型原生成功率</span><strong class="result-value">100<span class="result-unit">%</span></strong><span class="result-context">12 / 12 个小型开发工况</span></div>
+<div class="abstract-result"><span class="result-label">三型原生成功率</span><strong class="result-value">69.4<span class="result-unit">%</span></strong><span class="result-context">25 / 36 · 较 V2 +19.4 个百分点</span></div>
+<div class="abstract-result"><span class="result-label">横向运动残差降低</span><strong class="result-value"><span class="result-direction">↓</span>90.3<span class="result-unit">%</span></strong><span class="result-context">RMS 中位数 · 0.884 → 0.086 mm</span></div>
+<div class="abstract-result"><span class="result-label">腕力峰值降低</span><strong class="result-value"><span class="result-direction">↓</span>22.0<span class="result-unit">%</span></strong><span class="result-context">原始峰值中位数 · 全部 36 次尝试</span></div>
+</div>
+<div class="results-context">C7 / 本地原生仿真开发协议；两项降幅与同组 V2 比较。完整任务与真机性能另行验证。</div>
+</div>
+
 <p class="keywords"><strong>关键词：</strong>固定夹装配；接触状态估计；导纳控制；受约束执行；残差强化学习；仿真验证；真实设备迁移</p>
 
 <div class="reading-map"><a href="#methods"><strong>方案</strong><span>架构、输入输出、控制与学习、伪代码、上机验证</span></a><a href="#experiments"><strong>效果</strong><span>实验条件、最佳结果、三型演示与轨迹解释</span></a></div>
