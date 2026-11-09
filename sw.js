@@ -1,5 +1,5 @@
 'use strict';
-// Build 78dfab89aff9d69a. Decrypted files are held in memory only, never CacheStorage.
+// Build 2a7a5a1b59ba08fb. Decrypted files are held in memory only, never CacheStorage.
 const BASE=self.registration.scope,STORAGE_NAME='tianshui-report-key-v1';
 let key=null,keyRequest=null,manifestRequest=null;
 const plain=new Map(),bytes=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
